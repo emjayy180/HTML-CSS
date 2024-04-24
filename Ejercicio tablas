@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailing</title>
+    <style>
+        html {
+            background-color: rgb(223, 223, 223);
+        }
+
+        .center {
+            display: grid;
+            width: 50%;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        a:visited {
+            color: #083d83;
+        }
+
+        p {
+            color: #343434;
+            font-size: 16px;
+        }
+
+        p a {
+            color: #083d83;
+        }
+    </style>
+</head>
+
+<body class="center">
+    <table style="text-align: center; width: 720px;">
+        <tr>
+            <td>
+                Si no puede visualizar correctamente este mensaje pulse <a href="#" title="link aquí"
+                    target="_blank">aquí</a>
+            </td>
+        </tr>
+    </table>
+    <table border="1" style="background-color: #fff; width: 720px;">
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td>
+                            <img src="img/cabecera.jpg" alt="Imagen cabecera">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="text-align: center; width: 720px; color:#343434; font-size: 16px;">
+                    <tr>
+                        <td style="width: 150px;"></td>
+                        <td>
+                            <p>Cebek Digital comienza su andadura tras un año marcado por
+                                la pandemia y la aceleración digital, en 2022 llegó una nueva
+                                revolución digital con la web 3.0, ¿Qué nos deparará 2023?</p>
+                        </td>
+                        <td style="width: 150px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Tendencias y contenidos Cebek Digital en<br>2023</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%">
+                    <tr>
+                        <td style="width: 25px;"></td>
+                        <td><img src="img/wordcloud.jpg" alt="Imagen 1"></td>
+                        <td style="width: 25px;"></td>
+                        <td style="text-align:justify; vertical-align: top;">
+                            <p>Tal y como hemos dicho en otras ocasiones, la transformación digital no es únicamente
+                                tecnológica. En el 2023 parece que iremos cambiando hacia un nuevo tipo de
+                                organizaciones dónde ser ágiles será prioritario, más centradas en las personas, en sus
+                                competencias digitales, la creatividad y adaptación al cambio. La tecnología tendrá un
+                                papel importante en todo ello pero es preciso ponerlo en contexto.
+                            </p>
+                            <p><a href="#" title="Ir al link Leer Más" target="_blank"><strong>Leer Más →</strong></a>
+                            </p>
+                        </td>
+                        <td style="width: 25px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <hr style="width: 600px; color: #454545;">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Hoy más que nunca es necesario compartir y colaborar.</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td style="text-align:justify; padding: 0 18px;">
+                            <p>
+                                Tras dos años de andadura, entrevistamos a Edurne Errazti, Responsable del proyecto para
+                                que nos cuente cómo ha evolucionado y las experiencias vividas.
+                            </p>
+                            <p><a href="#" title="Ir al link Leer Más" target="_blank"><strong>Leer Más →</strong></a>
+                            </p>
+                        </td>
+                        <td style="padding: 0 18px;">
+                            <img src="img/edurne-errazti.jpg" alt="Imagen 1">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <hr style="width: 600px; color: #454545;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Recordando lo que ha sido el 2022</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 720px;">
+                    <tr>
+                        <td style="text-align:justify; padding: 0 18px;">
+                            <p>Si no has tenido ocasión de seguir nuestros contenidos, aquí tienes una nueva
+                                oportunidad. En los siguientes enlaces tienes disponibles los resúmenes del año de
+                                nuestros principales apartados. ¡A qué esperas...!</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="width: 25px;"></td>
+                        <td>
+                            <img src="img/experiencias.jpg" alt="Ir a experiencias">
+                            <p style="margin-top: 0;">Vuestras experiencias son la parte más valiosa de nuestro proyecto
+                            </p>
+                        </td>
+                        <td style="width: 25px;"></td>
+                        <td>
+                            <img src="img/observatorio.jpg" alt="Ir a experiencias">
+                            <p style="margin-top: 0;">52 publicaciones sobre diferentes áreas temáticas</p>
+                        </td>
+                        <td style="width: 25px;"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 25px;"></td>
+                        <td>
+                            <img src="img/formacion.jpg" alt="Ir a experiencias">
+                            <p style="margin-top: 0;">52 sesiones (83 horas) y 862 asistentes</p>
+                        </td>
+                        <td style="width: 25px;"></td>
+                        <td>
+                            <img src="img/ayudas.jpg" alt="Ir a experiencias">
+                            <p style="margin-top: 0;">Informar sobre los principales organismos públicos y las
+                                convocatorias vigentes</p>
+                        </td>
+                        <td style="width: 25px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 720px; text-align: center;">
+                    <tr>
+                        <td>
+                            <p><strong>¡Te esperamos! Únete a Cebek Digital</strong></p>
+                            <p><strong>Más información:</strong><br>
+
+                                info@cebek-digital.com<br>
+
+                                T: 94 400 28 00</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
