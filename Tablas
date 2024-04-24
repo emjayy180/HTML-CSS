@@ -1,0 +1,231 @@
+Tablas
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                Fila 1 - Celda 1
+            </td>
+            <td>
+                Fila 1 - Celda 2 y vamos a poner mas texto que enla primera celda
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Fila 2 - Celda 1
+            </td>
+            <td>
+                Fila 2 - Celda 2
+            </td>
+        </tr>
+    </table>
+    <table border="1" style="background-color: bisque;width: 100%;margin-bottom: 150px;">
+        <tr>
+            <td>
+                <table border="1" style="background-color: rgb(255, 196, 107);width: 100%;">
+                    <tr>
+                        <td>Celda 1</td>
+                        <td>Celda 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(187, 143, 143);">
+            <td>
+                Fila 2 - Celda única
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="background-color: antiquewhite;width: 100%;">
+                    <tr>
+                        <td>Celda 3.1</td>
+                        <td>Celda 3.2</td>
+                        <td>Celda 3.3</td>
+                    </tr>
+                    <tr>
+                        <td>Celda 4.1</td>
+                        <td>Celda 4.2</td>
+                        <td>Celda 4.3</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="background-color: beige;width: 100%;">
+                    <td>Celda 1</td>
+                    <td>Celda 2</td>
+                    <td>Celda 3</td>
+                    <td>Celda 4</td>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <table border="1" style="background-color: rgb(180, 114, 15);width:100%; margin-bottom: 150px;">
+        <tr>
+            <td>
+                <table border="1" style="background-color: blanchedalmond;width:100%">
+                    <tr>
+                        <td>
+                            <p><a href="https://www.elcorreo.com/" title="Ir a leer el correo" target="_blank">El
+                                    correo</a></p>
+                        </td>
+                        <td> Celda 2 </td>
+                        <td> Celda 3 </td>
+                        <td style="text-align: right;">
+                            <a href="https://www.behance.net/" title="Ir a Behance" target="_blank"><img
+                                    src="img/behance.png" alt="Icono Behance" width="50px"></a>
+                            <a href="https://es.linkedin.com/" title="Ir a LinkedIn" target="_blank"><img
+                                    src="img/linkedin.png" alt="Icono LinkedIn" width="50px"></a>
+                            <a href="https://www.tiktok.com/es/" title="Ir a TikTok" target="_blank"><img
+                                    src="img/tik-tok.png" alt="Icono TikTok" width="50px"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="background-color:aquamarine;width:100%">
+                    <tr>
+                        <td style="width: 50%;">
+                            <h1>Título principal de esta newsletter</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus commodi a
+                                reiciendis officia minus explicabo sunt, sapiente possimus distinctio blanditiis magni
+                                nam qui aspernatur repellat iste ratione voluptates sed.</p>
+                        </td>
+                        <td>
+                            <table border="1" style="background-color:azure;width:100%">
+                                <tr>
+                                    <td>
+                                        <ol>
+                                            <li>Primera noticia</li>
+                                            <li>Segunda noticia</li>
+                                            <li>Tercera noticia</li>
+                                        </ol>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li><a href="https://www.elcorreo.com/sociedad/"
+                                                    title="Ir a sección Sociedad de 'El Correo'"
+                                                    target="_blank">Sociedad</a></li>
+                                            <li><a href="https://www.elcorreo.com/politica/"
+                                                    title="Ir a sección Política de 'El Correo'"
+                                                    target="_blank">Política</a></li>
+                                            <li><a href="https://www.elcorreo.com/culturas/"
+                                                    title="Ir a sección Cultura de 'El Correo'"
+                                                    target="_blank">Cultura</a></li>
+                                            <li><a href="https://www.elcorreo.com/deportes/"
+                                                    title="Ir a sección Deportes de 'El Correo'"
+                                                    target="_blank">Deportes</a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <table border="1" style="background-color:aqua;width:100%;">
+                    <tr>
+                        <td>Fila 1 Celda 1</td>
+                        <td>Fila 1 Celda 2</td>
+                        <td>Fila 1 Celda 3</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 2 Celda 4</td>
+                        <td>Fila 2 Celda 5</td>
+                        <td>Fila 2 Celda 6</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 3 Celda 4</td>
+                        <td>Fila 3 Celda 5</td>
+                        <td>Fila 3 Celda 6</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <table border="1" style="width:100%;">
+        <tr style="background-color: bisque;text-align: center;">
+            <td colspan="3"><strong>invoice 12345</strong></td>
+            <td colspan="2"><strong>january 2025</strong></td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td colspan="2"><strong>pay to:<br>
+                    Acme Billing Co.<br>
+                    123 main st<br>
+                    Cityville, NA 12345</strong></td>
+            <td colspan="3"><strong>customer:<br>
+                    John Smith<br>
+                    321 Willoe Way<br>
+                    Southeast Northwetershire, ma 5421</strong></td>
+        </tr>
+
+        <tr style="background-color: bisque;">
+            <td>Name/description</td>
+            <td>qty .</td>
+            <td>@</td>
+            <td>cost</td>
+        </tr>
+
+        <tr>
+            <td>papersclip</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+
+        <tr>
+            <td>staples</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: bisque;">subtotal</td>
+            <td colspan="2">110.00</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="background-color: bisque;">Tax</td>
+            <td colspan="1">8%</td>
+            <td colspan="2">8.80</td>
+        </tr>
+
+        <tr>
+            <td colspan="3" style="background-color: bisque;">Gran total</td>
+            <td colspan="2">$118.80</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
