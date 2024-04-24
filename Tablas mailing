@@ -25,15 +25,11 @@
             color: #343434;
             font-size: 16px;
         }
-
-        p a {
-            color: #083d83;
-        }
     </style>
 </head>
 
 <body class="center">
-    <table style="text-align: center; width: 720px;">
+    <table style="text-align: center; width:100%;">
         <tr>
             <td>
                 Si no puede visualizar correctamente este mensaje pulse <a href="#" title="link aquí"
@@ -41,10 +37,10 @@
             </td>
         </tr>
     </table>
-    <table border="1" style="background-color: #fff; width: 720px;">
+    <table border="1" style="background-color: #fff; width: 100%;">
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table>
                     <tr>
                         <td>
                             <img src="img/cabecera.jpg" alt="Imagen cabecera">
@@ -55,7 +51,7 @@
         </tr>
         <tr>
             <td>
-                <table style="text-align: center; width: 720px; color:#343434; font-size: 16px;">
+                <table border="1" style="text-align: center; width: 100%; color:#343434; font-size: 16px;">
                     <tr>
                         <td style="width: 150px;"></td>
                         <td>
@@ -70,7 +66,7 @@
         </tr>
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table border="1" style="width: 100%;">
                     <tr>
                         <td style="text-align: center; color: #083d83; font-size: 16px;">
                             <h2>Tendencias y contenidos Cebek Digital en<br>2023</h2>
@@ -81,7 +77,7 @@
         </tr>
         <tr>
             <td>
-                <table style="width: 100%">
+                <table border="1" style="width: 100%">
                     <tr>
                         <td style="width: 25px;"></td>
                         <td><img src="img/wordcloud.jpg" alt="Imagen 1"></td>
@@ -93,7 +89,8 @@
                                 competencias digitales, la creatividad y adaptación al cambio. La tecnología tendrá un
                                 papel importante en todo ello pero es preciso ponerlo en contexto.
                             </p>
-                            <p><a href="#" title="Ir al link Leer Más" target="_blank"><strong>Leer Más →</strong></a>
+                            <p style="color: #083d83;"><a href="#" title="Ir al link Leer Más"
+                                    target="_blank"><strong>Leer Más →</strong></a>
                             </p>
                         </td>
                         <td style="width: 25px;"></td>
@@ -109,7 +106,7 @@
 
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table border="1" style="width: 100%;">
                     <tr>
                         <td style="text-align: center; color: #083d83; font-size: 16px;">
                             <h2>Hoy más que nunca es necesario compartir y colaborar.</h2>
@@ -120,19 +117,21 @@
         </tr>
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table border="1" style="width: 100%;">
                     <tr>
-                        <td style="text-align:justify; padding: 0 18px;">
+                        <td style="width: 25px;"></td>
+                        <td style="text-align:justify; vertical-align: top;">
                             <p>
                                 Tras dos años de andadura, entrevistamos a Edurne Errazti, Responsable del proyecto para
                                 que nos cuente cómo ha evolucionado y las experiencias vividas.
                             </p>
-                            <p><a href="#" title="Ir al link Leer Más" target="_blank"><strong>Leer Más →</strong></a>
+                            <p style="color: #083d83;"><a href="#" title="Ir al link Leer Más"
+                                    target="_blank"><strong>Leer Más →</strong></a>
                             </p>
                         </td>
-                        <td style="padding: 0 18px;">
-                            <img src="img/edurne-errazti.jpg" alt="Imagen 1">
-                        </td>
+                        <td style="width: 25px;"></td>
+                        <td><img src="img/edurne-errazti.jpg" alt="Imagen 1"></td>
+                        <td style="width: 25px;"></td>
                     </tr>
                 </table>
             </td>
@@ -144,7 +143,7 @@
         </tr>
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table border="1" style="width: 100%;">
                     <tr>
                         <td style="text-align: center; color: #083d83; font-size: 16px;">
                             <h2>Recordando lo que ha sido el 2022</h2>
@@ -155,7 +154,7 @@
         </tr>
         <tr>
             <td>
-                <table style="width: 720px;">
+                <table border="1" style="width: 100%;">
                     <tr>
                         <td style="text-align:justify; padding: 0 18px;">
                             <p>Si no has tenido ocasión de seguir nuestros contenidos, aquí tienes una nueva
@@ -172,13 +171,15 @@
                     <tr>
                         <td style="width: 25px;"></td>
                         <td>
-                            <img src="img/experiencias.jpg" alt="Ir a experiencias">
+                            <a href="#" title="Link a Experiencias" target="_blank"><img src="img/experiencias.jpg"
+                                    alt="Ir a experiencias"></a>
                             <p style="margin-top: 0;">Vuestras experiencias son la parte más valiosa de nuestro proyecto
                             </p>
                         </td>
                         <td style="width: 25px;"></td>
                         <td>
-                            <img src="img/observatorio.jpg" alt="Ir a experiencias">
+                            <a href="#" title="Link a Observatorio" target="_blank"><img src="img/observatorio.jpg"
+                                    alt="Ir a experiencias"></a>
                             <p style="margin-top: 0;">52 publicaciones sobre diferentes áreas temáticas</p>
                         </td>
                         <td style="width: 25px;"></td>
@@ -186,12 +187,14 @@
                     <tr>
                         <td style="width: 25px;"></td>
                         <td>
-                            <img src="img/formacion.jpg" alt="Ir a experiencias">
+                            <a href="#" title="Link a Formación" target="_blank"><img src="img/formacion.jpg"
+                                    alt="Ir a experiencias"></a>
                             <p style="margin-top: 0;">52 sesiones (83 horas) y 862 asistentes</p>
                         </td>
                         <td style="width: 25px;"></td>
                         <td>
-                            <img src="img/ayudas.jpg" alt="Ir a experiencias">
+                            <a href="#" title="Link a Ayudas" target="_blank"><img src="img/ayudas.jpg"
+                                    alt="Ir a experiencias"></a>
                             <p style="margin-top: 0;">Informar sobre los principales organismos públicos y las
                                 convocatorias vigentes</p>
                         </td>
@@ -202,15 +205,16 @@
         </tr>
         <tr>
             <td>
-                <table border="1" style="width: 720px; text-align: center;">
+                <table border="1" style="width: 100%; text-align: center;">
                     <tr>
                         <td>
                             <p><strong>¡Te esperamos! Únete a Cebek Digital</strong></p>
-                            <p><strong>Más información:</strong><br>
-
-                                info@cebek-digital.com<br>
-
-                                T: 94 400 28 00</p>
+                            <p style="line-height: 30px;"><strong style="text-decoration: underline;">Más
+                                    información:</strong><br>
+                                <a href="mailto:info@cebek-digital.com"
+                                    title="Escribir Email info@cebek-digital.com">info@cebek-digital.com</a><br>
+                                <a href="tel: 94 400 28 00" title="Llamanos al 94 400 28 00"> T: 94 400 28 00</a>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -218,10 +222,38 @@
         </tr>
         <tr>
             <td>
-                <table>
+                <table border="1" style="width: 100%; text-align: center;">
                     <tr>
                         <td>
-
+                            <img src="img/pie-newsletter.jpg" alt="Imagen footer;">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%; text-align: center;">
+                    <tr>
+                        <td style="text-align: justify; padding: 0 18px;">
+                            <p>
+                                Conforme a la Ley 3/2018 de Protección de Datos Personales y garantía de los derechos
+                                digitales y el Reglamento UE 679/2016, le informamos que sus datos son guardados y
+                                tratados
+                                en ficheros de los que es responsable CEBEK con domicilio en Gran vía 50-48011 Bilbao.
+                                Estos
+                                ficheros tienen como finalidad gestionar los datos para la realización de los servicios
+                                solicitados o que puedan resultar de su interés, así como difusión de nuestras
+                                actividades
+                                en diversos medios tales como correo electrónico, web, publicaciones y boletines. Podrá
+                                ejercitar sus derechos de acceso, rectificación, limitación de tratamiento, supresión,
+                                portabilidad y revocar el consentimiento prestado dirigiendo un escrito con copia de su
+                                DNI
+                                a la dirección de correo electrónico habilitada a tales efectos: lopd@cebek.es También
+                                podrá, en caso de no ver atendidos sus derechos, presentar su reclamación a la Agencia
+                                de
+                                Protección de Datos
+                            </p>
                         </td>
                     </tr>
                 </table>
