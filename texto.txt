@@ -1,0 +1,160 @@
+Anchura de la tabla principal: 720px.
+Color de los h2: #083d83. Tamaño 26px
+Párrafo: #343434. Tamaño 16px
+Enlace: negrita y a 16px. Color: #083d83
+
+PRIMERA FRASE:
+Si no puede visualizar correctamente este mensaje pulse aquí
+
+
+PÁRRAFO:
+Este mes os proponemos dos ejemplos muy diferentes sobre cómo aplicar la tecnología en la empresa.
+Además, estrenamos formato y hablamos con un expert@ que ofrece su visión y consejo sobre su área de especialización, en este caso, IA.
+
+H2:
+Experiencias y conversaciones interesantes
+
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+La estandarización del dato es fundamental para ofrecer un producto personalizado
+
+PÁRRAFO:
+Conversando con Orbea sobre personalización
+
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Ver Vídeo →
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Legit.Health: Inteligencia Artificial para dar soporte al diagnóstico y medir la ...
+
+PÁRRAFO:
+La startup del ámbito de la salud, Legit.Health, ha desarrollado una solución...
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Leer Más y Escuchar Podcast →
+
+H2:
+En clave de experto@
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+¿Cúal es el rol de un decisor de primer nivel para aprovechar todo el partido de sus equiposy de la tecnología disponible?
+
+
+PÁRRAFO:
+En clave de expert@: Bernardo Crespo
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Ver Vídeo →
+
+
+H2
+Más contenidos de interés
+
+PÁRRAFO
+Publicaciones de Observatorio que esperamos puedan ser de utilidad en vuestro camino hacia la transformación digital.
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Colaboración entre humanos y máquinas: El paradigma de la inteligencia aumentada
+
+PÁRRAFO:
+Empezamos por el final y diremos, que todo esto de la inteligencia artificial trata de construir un entorno de confianza; transparencia, ética, legislación, privacidad, supervisión…
+
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Leer Más →
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Consejos SEO para lograr resultados
+
+PÁRRAFO:
+10 consejos SEO para lograr resultados y acciones para los contenidos de la web...
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Leer Más →
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Hubspot: conecta datos, equipos y clientes
+
+
+PÁRRAFO:
+Hubspot es un software orientado a automatizar procesos de marketing, ventas y servicios. Permite desarrollar estrategias...
+
+
+PÁRRAFO (CON ENLACE A NO SABEMOS DONDE...):
+Leer Más →
+
+H2
+Consulta nuestra agenda
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Workshop online: Las claves de Linkedin para crear y mejorar tu página de empresa
+
+PÁRRAFO:
+Modalidad: Online
+Fecha: 08/03/2023
+Duración: 2 horas
+Horario: de 10:00 a 12:00
+
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Workshop online: Las claves de Linkedin para crear y mejorar tu página de empresa
+
+
+PÁRRAFO:
+Modalidad: Online
+Fecha: 15/03/2023
+Duración: 2 horas
+Horario: de 10:00 a 12:00
+
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Webinar: Captación de nuevas oportunidades de negocio en entornos Industriales y B2B con herramientas digitales
+
+PÁRRAFO:
+Modalidad: Online
+Fecha: 22/03/2023
+Duración: 2 horas
+Horario: de 10:00 a 12:00
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Curso online: Google Analytics 4, el nuevo modo de medir
+
+
+PÁRRAFO:
+Modalidad: Online
+Fecha: 21, 23 y 28 de marzo de 2023
+Duración: 9 horas
+Horario: de 09:30 a 12:30
+
+H3 (Y CON ENLACE A NO SABEMOS DONDE...):
+Taller práctico: conocer las circunstancias iniciales del cliente, cuáles eran sus necesidades a nivel marketing-comercial digital, cómo llegó, qué hemos y trabajamos para ellos: objetivos, estrategia, herramientas, procesos, KPIs diversos. Enfoque 360.
+
+PÁRRAFO:
+Modalidad: Presencial
+Fecha: 29/03/2023
+Duración: 3 horas
+Horario: de 09:30 a 13:30
+
+ENLACE AZUL
+Consulta nuestra agenda →
+
+H3
+¡Te esperamos! Únete a Cebek Digital
+
+
+PÁRRAFO (Y TANTO TELÉFONO COMO MAIL QUE SEAN ENLACE)
+Suscríbete en www.cebek-digital.com
+y síguenos en https://www.linkedin.com/company/cebek-digital/
+
+Más información:
+
+info@cebek-digital.com
+
+T: 94 400 28 00
+
+PÁRRAFO
+	
+Conforme a la Ley 3/2018 de Protección de Datos Personales y garantía de los derechos digitales y el Reglamento UE 679/2016, le informamos que sus datos son guardados y tratados en ficheros de los que es responsable CEBEK con domicilio en Gran vía 50-48011 Bilbao. Estos ficheros tienen como finalidad gestionar los datos para la realización de los servicios solicitados o que puedan resultar de su interés, así como difusión de nuestras actividades en diversos medios tales como correo electrónico, web, publicaciones y boletines. Podrá ejercitar sus derechos de acceso, rectificación, limitación de tratamiento, supresión, portabilidad y revocar el consentimiento prestado dirigiendo un escrito con copia de su DNI a la dirección de correo electrónico habilitada a tales efectos: lopd@cebek.es También podrá, en caso de no ver atendidos sus derechos, presentar su reclamación a la Agencia de Protección de Datos
+
+
