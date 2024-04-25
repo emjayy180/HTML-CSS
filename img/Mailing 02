@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailing 02</title>
+    <style>
+        html {
+            background-color: rgb(206, 206, 206);
+        }
+
+        body {
+            display: grid;
+            width: 50%;
+            margin: 0 auto;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" style="text-align: center; width: 100%;">
+        <tr>
+            <td>
+                Si no puede visualizar correctamente este mensaje pulse <a href="#" title="Link Aquí"
+                    target="_blank">aquí
+                </a></td>
+        </tr>
+    </table>
+    <table border="1" style="width: 720px; background-color: #fff;">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="img/cabecera.jpg" alt="Imagen cabecera">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 150px;"></td>
+                        <td style="text-align: justify;">
+                            <p>Este mes os proponemos dos ejemplos muy diferentes sobre cómo aplicar la tecnología en la
+                                empresa.
+                                Además, estrenamos formato y hablamos con un expert@ que ofrece su visión y consejo
+                                sobre su área de especialización, en este caso, IA.</p>
+                        </td>
+                        <td style="width: 150px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Experiencias y conversaciones interesantes</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 50px;"></td>
+
+                        <td style="font-size: 16px;"><img src="img/conversando-con-orbea.jpg"
+                                alt="Imagen conversando con orbea">
+                            <h3 style="margin-top: 0;">La estandarización del dato es fundamental para ofrecer un
+                                producto personalizado</h3>
+                            <p>Conversando con Orbea sobre personalización</p>
+                            <p><a href="#" title="Ir a ver vídeo" style="color: #083d83;"><strong>Ver Vídeo
+                                        →</strong></a></p>
+                        </td>
+
+                        <td style="width: 50px;"></td>
+
+                        <td style="font-size: 16px;"><img src="img/Legit-Health_02.jpg" alt="Imagen persona">
+                            <h3 style="margin-top: 0;">Legit.Health: Inteligencia Artificial para dar soporte al
+                                diagnóstico y medir la ...</h3>
+                            <p>La startup del ámbito de la salud, Legit.Health, ha desarrollado una solución...</p>
+                            <p><a href="#" title="Ir a Leer más y escuchar podcast" style="color: #083d83;"><strong>Leer
+                                        Más y Escuchar Podcast →</strong></a></p>
+                        </td>
+
+                        <td style="width: 50px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>En clave de experto@</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width:180px;"></td>
+
+                        <td><img src="img/video-experto-grande.jpg" alt="Imagen vídeo 1">
+                            <h3 style="margin-top: 0;">¿Cúal es el rol de un decisor de primer nivel para aprovechar
+                                todo el partido de sus equipos y de la tecnología disponible?</h3>
+                            <p>En clave de expert@: Bernardo Crespo</p>
+                            <p><a href="#" title="Ir a ver vídeo" style="color: #083d83;"><strong>Ver Vídeo
+                                        →</strong></a></p>
+                        </td>
+
+                        <td style="width:180px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Más contenidos de interés</h2>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="width: 15px;"></td>
+                        <td style="text-align: justify;">
+                            <p>Publicaciones de Observatorio que esperamos puedan ser de utilidad en vuestro camino
+                                hacia la
+                                transformación digital.</p>
+                        </td>
+                        <td style="width: 15px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 15px;"></td>
+                        <td><img src="img/IA.jpg" title="Imagen IA"
+                                style="width: 200px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);"></td>
+                        <td style="width: 15px;"></td>
+                        <td>
+                            <h3>Colaboración entre humanos y máquinas: El paradigma de la inteligencia aumentada
+                            </h3>
+                            <p>Empezamos por el final y diremos, que todo esto de la inteligencia artificial trata de
+                                construir un entorno de confianza; transparencia, ética, legislación, privacidad,
+                                supervisión…</p>
+                            <p><a href="#" title="Leer Más" style="color: #083d83;"><strong> Leer Más →</strong></a></p>
+                        </td>
+                        <td style="width: 15px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 15px;"></td>
+                        <td><img src="img/10-consejos-seo.jpg" title="Imagen 10 consejos"
+                                style="width: 200px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);"></td>
+                        <td style="width: 15px;"></td>
+                        <td>
+                            <h3>Consejos SEO para lograr resultados</h3>
+                            <p>10 consejos SEO para lograr resultados y acciones para los contenidos de la web...</p>
+                            <p><a href="#" title="Leer Más" style="color: #083d83;"><strong> Leer Más →</strong></a></p>
+                        </td>
+                        <td style="width: 15px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 15px;"></td>
+                        <td><img src="img/hubspot.jpg" title="Imagen hubspot"
+                                style="width: 200px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5);"></td>
+                        <td style="width: 15px;"></td>
+                        <td>
+                            <h3>Hubspot: conecta datos, equipos y clientes</h3>
+                            <p>Hubspot es un software orientado a automatizar procesos de marketing, ventas y servicios.
+                                Permite desarrollar estrategias...</p>
+                            <p><a href="#" title="Leer Más" style="color: #083d83;"><strong> Leer Más →</strong></a></p>
+                        </td>
+                        <td style="width: 15px;"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="text-align: center; color: #083d83; font-size: 16px;">
+                            <h2>Consulta nuestra agenda</h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1" style="width: 100%;">
+                    <tr>
+                        <td style="width: 10px;"></td>
+                        <td><img src="img/fomacion.png" alt="Imagen formación" style="width: 80px;"> </td>
+                        <td style="width: 15px;"></td>
+                        <td>
+                            <p>Modalidad: Online<br>
+                                Fecha: 15/03/2023<br>
+                                Duración: 2 horas<br>
+                                Horario: de 10:00 a 12:00</p>
+                        </td>
+                        <td style="width: 15px;"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
