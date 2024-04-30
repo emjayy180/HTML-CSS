@@ -1,0 +1,62 @@
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    height: 100%;
+}
+
+main {
+    background-color: #fff;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.fila {
+    height: 33%;
+    background-color: #7a7a7a;
+    display: flex;
+    column-gap: 10px;
+}
+
+.naranja {
+    background-color: #ff4800;
+}
+
+.ancho66 {
+    width: 66%;
+}
+
+.ancho33 {
+    width: 33%;
+}
+
+.amarillo {
+    background-color: #fffb13;
+}
+
+.ancho45 {
+    width: 45%;
+}
+
+.ancho55 {
+    width: 55%;
+}
+
+.granate {
+    background-color: #aa0e0e;
+}
+
+.azul {
+    background-color: #01ffdd;
+}
+
+.ancho25 {
+    width: 25%;
+}
+
+.ancho50 {
+    width: 50%;
+}
