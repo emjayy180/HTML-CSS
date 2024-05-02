@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+
+
+    <div class="fila">
+      <div class="naranja ancho66"></div>
+      <div class="naranja ancho33"></div>
+    </div>
+
+    <div class="fila">
+      <div class="amarillo ancho45"></div>
+      <div class="transparente ancho55">
+        <div class="granate"></div>
+        <div class="granate"></div>
+      </div>
+    </div>
+
+    <div class="fila">
+      <div class="azul25"></div>
+      <div class="azul50"></div>
+      <div class="azul25"></div>
+    </div>
+
+
+
+  </main>
+</body>
+
+</html>
+
+
+HOJA DE ESTILOS CSS
+
+html, body{
+
+margin: 0%;
+padding: 0%;
+height: 100%;
+border: 2px solid #000 ;
+box-sizing: border-box;
+height: 100%;
+
+}
+ 
+main{
+
+height: 100%;
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.fila{
+  height: 33%;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  column-gap: 10px;
+
+}
+
+.naranja{
+  background-color: orange;
+}
+
+.amarillo{
+  background-color: yellow;
+}
+.transparente{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.granate{
+  background-color: red;
+  height: 50%;
+}
+.ancho66{
+  width: 66%;
+}
+.ancho33{
+  width: 34%;
+}
+
+.ancho45{
+width: 55%;
+}
+.ancho55{
+  width: 55%;
+}
+
+.azul25{
+  background-color: cornflowerblue;
+  width: 25%;
+}
+.azul50{
+  width: 50%;
+  background-color: cornflowerblue;
+}
+.azul25{
+  width: 25%;
+}
