@@ -51,7 +51,7 @@ html,
 body {
     margin: 0%;
     padding: 0%;
-    border: 5px solid #004561;
+    border: 5px solid #4b9fc0;
     box-sizing: border-box;
     height: 100%;
 }
@@ -59,6 +59,8 @@ body {
 main {
     height: 100%;
     background-color: blanchedalmond;
+    border: 20px solid #004561;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -70,7 +72,6 @@ main {
     flex-direction: column;
     gap: 10px;
 }
-
 .fila1 {
     height: 30%;
     display: flex;
@@ -80,7 +81,6 @@ main {
 
 .fila2 {
     display: flex;
-    background-color: rgb(197, 120, 25);
     height: 70%;
     column-gap: 10px;
 }
@@ -96,19 +96,52 @@ main {
     background-color: rgb(255, 141, 211);
     height: 60%;
 }
-
 .rosa3 {
     background-color: rgb(255, 141, 211);
     height: 40%;
 }
-
+.rosa4 {
+    background-color: #ff8dd3;
+    height: 100%;
+    width: 50%;
+}
 
 
 .columna2 {
     display: flex;
     width: 50%;
-    background-color: aqua;
+    flex-direction: column;
     gap: 10px;
 }
 
-.fila3 {}
+.fila3 {
+    display: flex;
+    background-color: aqua;
+    column-gap: 10px;
+    height: 55%;
+}
+.transparente2 {
+display: flex;
+width: 50%;
+background-color: blue;
+flex-direction: column;
+row-gap: 10px;
+}
+.transparente3 {
+display: flex;
+width: 50%;
+background-color: aquamarine;
+flex-direction: column;
+}
+.rosa5 {
+background-color: #ff8dd3;
+height: 40%;
+}
+.rosa7 {
+    background-color: #ff8dd3;
+    height: 20%;
+}
+.rosa9 {
+    background-color: #ff8dd3;
+    height: 40%;
+}
