@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 04</title>
+    <link href="css/style04.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <div class="columna1">
+            <div class="fila1"></div>
+            <div class="fila2">
+                <div class="transparente1">
+                    <div class="rosa2"></div>
+                    <div class="rosa3"></div>
+                </div>
+                <div class="rosa4"></div>
+            </div>
+        </div>
+        <div class="columna2">
+            <div class="fila3">
+                <div class="transparente2">
+                    <div class="rosa5"></div>
+                    <div class="rosa7"></div>
+                    <div class="rosa9"></div>
+                </div>
+                <div class="transparente3">
+                    <div class="rosa6"></div>
+                    <div class="rosa8"></div>
+                    <div class="rosa10"></div>
+                </div>
+            </div>
+            <div class="fila4">
+                <div class="transparente4">
+                    <div class="rosa11"></div>
+                    <div class="rosa12"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+HOJA CSS
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 5px solid #004561;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.columna1 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fila1 {
+    height: 30%;
+    display: flex;
+    background-color: rgb(255, 141, 211);
+    column-gap: 10px;
+}
+
+.fila2 {
+    display: flex;
+    background-color: rgb(197, 120, 25);
+    height: 70%;
+    column-gap: 10px;
+}
+
+.transparente1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 50%;
+}
+
+.rosa2 {
+    background-color: rgb(255, 141, 211);
+    height: 60%;
+}
+
+.rosa3 {
+    background-color: rgb(255, 141, 211);
+    height: 40%;
+}
+
+
+
+.columna2 {
+    display: flex;
+    width: 50%;
+    background-color: aqua;
+    gap: 10px;
+}
+
+.fila3 {}
