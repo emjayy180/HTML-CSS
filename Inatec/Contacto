@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Ir a mi página de inicio">
+            <img src="img/logo-inatec.jpg" alt="Logotipo del centro educativo Inatec">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="servicios.html" title="Ir al apartado de Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio1"
+                                title="Ir al apartado de Servicios">Servicio 1</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio2"
+                                title="Ir al apartado de Servicios">Servicio 2</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio3"
+                                title="Ir al apartado de Servicios">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="quienesomos.html" title="Ir al apartado de Quiénes somos">Quiénes somos</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#presentacion"
+                                title="Presentación">Presentación</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#mision" title="Misión">Misión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#vision" title="Visión">Visión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#valores" title="Valores">Valores</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Contacto.html" title="Ir al apartado de Contacto">Contacto</a></li>
+                <li><a href="Blog.html" title="Ir al apartado de Blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacta con nosotros</h1>
+        <section class="bg-claro">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:*
+                        <input type="text" id="nombre" placeholder="Escribe tu nombre" autofocus required></label>
+                    <label for="apellidos">Apellidos: <input type="text" id="apellidos"
+                            placeholder="Escribe tus apellidos"></label>
+                    <label for="fechanacimiento">Fecha de nacimiento: <input type="date" id="fechanacimiento"></label>
+                    <p>Género:</p>
+                    <label for="hombre"><input type="radio" id="hombre" value="hombre">Hombre</label>
+                    <label for="mujer"><input type="radio" id="mujer" value="mujer">Mujer</label>
+                    <label for="otro"><input type="radio" id="otro" value="otro">Otro</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de Contacto</legend>
+                    <label for="mail"> <i class="fa-solid fa-envelope"></i> E-mail: <input type="text" id="mail" placeholder="Escribe tu correo"> </label>
+                    <label for="telefono"><i class="fa-solid fa-phone"></i>Teléfono: <input type="tel" id="telefono"
+                            placeholder="688801954"></label>
+                    <label for="direccion"> <i class="fa-solid fa-location-dot"></i> Dirección: <input type="text" id="direccion"></label>
+                    <label for="cp"> <i class="fa-solid fa-location-pin"></i> C.P:<input type="number" id="cp"></label>
+                    <p>¿Cómo quieres que te contactemos?</p>
+                    <label for="contactemail"><input type="checkbox" id="contactemail" value="poremail"
+                            name="contacto">Por e-mail</label>
+                    <label for="contacttelf"><input type="checkbox" id="contacttelf" value="portelefono"
+                            name="contacto">Por teléfono</label>
+                    <label for="contactcarta"><input type="checkbox" id="contactcarta" value="porcarta"
+                            name="contacto">Por carta</label>
+                </fieldset>
+                <label for="aceptacion"><input type="checkbox" value="aceptacion" name="aceptacion"
+                        id="aceptacion">Acepto la <a href="politica-de-privacidad" title="politica de privacidad"
+                        target="_blank"> política de privacidad.</a></label>
+                <input type="reset" value="Eliminar datos">
+                <input type="submit"> 
+            </form>
+
+            <!---    <form class="move">
+                <label for="nombre">Nombre</label><br>
+                <input type="nombre" required><br>
+
+                <label for="e-mail">E-mail</label><br>
+                <input type="e-mail" required><br>
+
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" maxlength="200"></textarea>
+                <br>
+                <input type="reset" name="borrar" id="reset"><br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <main>
+            <div class="contacto">
+                <p>Nombre</p>
+                <p>E-mail</p>
+                <p>Mensaje</p>
+                <p>Enviar</p>
+            </div>
+        </main> --->
+
+            <div class="anchomedio">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5811.170204026486!2d-2.9524444232115417!3d43.26011657112348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e503054a543e1%3A0x1c21fc975e291be7!2sPl.%20Garellano%2C%2014%2C%20Basurto-Zorroza%2C%2048013%20Bilbao%2C%20Vizcaya!5e0!3m2!1ses!2ses!4v1712734889514!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            </div>
+            <div class="anchomedio">
+                <h3>Puedes encontrarnos en:</h3>
+                <p><i class="fa-solid fa-phone"></i>Número de teléfono: <a href="tel: 666777222"
+                        title="Llámame al 666 77 72 22">666 77 72 22</a> </p>
+                <p><i class="fa-solid fa-at"></i>E-mail: <a href="mailto:info@midominio.com"
+                        title="Escribeme un email a info@midominio.com">info@dominio.com</a></p>
+                <p><i class="fa-solid fa-location-dot"></i>Dirección física: <a
+                        href="https://maps.app.goo.gl/EgRqxebQEaJw6LRd9" title="Ir a ver la ubicación en Google maps"
+                        target="_blank">Garellano 14. Bilbao.</a>.</p>
+                <h3>Puedes seguirnos:</h3>
+                <p><a href="https://www.instagram.com/180.mjmj/" title="Ir a ver mi perfil de Instagram"><i
+                            class="fa-brands fa-instagram"></i>Instagram</a></p>
+                <p><a href="https://www.facebook.com/centroinatec/?locale=es_ES"
+                        title="Ir a ver mi perfil de Facebook"><i class="fa-brands fa-facebook"
+                            aria-hidden="true"></i>Facebook</a></p>
+                <p><a href="https://es.linkedin.com/company/the-walt-disney-company"
+                        title="Ir a ver mi perfil de LinkedIn"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></p>
+            </div>
+        </section>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a></li>
+            <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</html>
