@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivo</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Inicio">
+            <img src="img/logo-inatec.jpg" alt="Logotipo del centro educativo Inatec">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="servicios.html" title="Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio1" title="Ir al apartado de Servicios">Servicio 1</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio2" title="Ir al apartado de Servicios">Servicio 2</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio3" title="Ir al apartado de Servicios">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="quienesomos.html" title="Quiénes somos">Quiénes somos</a>
+                    <ul>
+                        <li><a href="#presentacion" title="Presentación">Presentación</a></li>
+                        <li><a href="#mision" title="Misión">Misión</a></li>
+                        <li><a href="#vision" title="Visión">Visión</a></li>
+                        <li><a href="#valores" title="Valores">Valores</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contacto.html" title="Contacto">Contacto</a></li>
+                <li><a href="Blog.html" title="Ir al apartado de Blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Quiénes somos</h1>
+        <a href="#" class="ancla" id="presentacion"></a>
+        <section class="bg-claro" >
+            <h2>Presentación</h2>
+            <div class="anchomedio">
+                <img src="img/empresa.jpg" alt="Imagen de mi empresa">
+            </div>
+            <div class="anchomedio">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt iste, saepe, incidunt vitae odio
+                    molestiae libero fuga maxime facilis nam laudantium pariatur veniam culpa doloribus quia adipisci
+                    nemo iure eveniet!</p>
+            </div>
+            </div>
+        </section>
+
+        <a href="#" class="ancla" id="mision"></a>
+        <section class="bg-oscuro">
+            <h2>Misión</h2>
+            <div class="anchomaximo">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptas, earum cum laborum,
+                    asperiores fugit placeat perferendis animi repellat et delectus, aliquam ipsa deleniti. Fugiat
+                    voluptates fuga voluptatum aperiam odio.</p>
+            </div>
+        </section>
+
+        <a href="#" class="ancla" id="vision"></a>
+        <section class="bg-claro">
+            <h2>Visión</h2>
+            <div class="anchomaximo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis, illo molestias unde
+                    perferendis
+                    omnis quod, quasi pariatur, voluptatibus dicta eius saepe! Vel quos rerum quia tenetur. Nihil, ad
+                    vero?
+                </p>
+            </div>
+        </section>
+
+        <a href="#" class="ancla" id="valores"></a>
+        <section class="bg-oscuro">
+            <h2 class="izq">Valores</h2>
+            <div class="anchomaximo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem explicabo recusandae
+                    quisquam
+                    molestias accusamus. Quo a non sequi eum adipisci ipsam quos, sint debitis obcaecati facilis! Cum,
+                    aliquid cupiditate.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad">Política de privacidad</a></li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
