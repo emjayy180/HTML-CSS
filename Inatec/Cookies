@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de privacidad</title>
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Ir a mi página de inicio">
+            <img src="img/logo-inatec.jpg" alt="Logotipo del centro educativo Inatec">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="servicios.html" title="Ir al apartado de Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio1"
+                                title="Ir al apartado de Servicios">Servicio 1</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio2"
+                                title="Ir al apartado de Servicios">Servicio 2</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio3"
+                                title="Ir al apartado de Servicios">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="quienesomos.html" title="Ir al apartado de Quiénes somos">Quiénes somos</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#presentacion"
+                                title="Presentación">Presentación</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#mision" title="Misión">Misión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#vision" title="Visión">Visión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#valores" title="Valores">Valores</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Contacto.html" title="Ir al apartado de Contacto">Contacto</a></li>
+                <li><a href="Blog.html" title="Ir al apartado de Blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="bg-claro">
+        <h1>Política de Cookies</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit facilis voluptates blanditiis veritatis placeat maxime quam. Repudiandae omnis saepe id placeat tempora repellendus magnam velit rem, architecto voluptas dolorem iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tenetur quasi ratione ipsa ducimus, culpa voluptatem unde odit placeat minus tempora quae facilis at libero esse possimus, rerum voluptatibus nostrum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, aut tempore minima quos quae magni laboriosam voluptatibus. Reiciendis corrupti debitis, dolor, repellendus itaque, a molestias laboriosam aut error nulla minima!</p>
+    </section>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a></li>
+            <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
