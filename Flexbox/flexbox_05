@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox 05</title>
+    <link href="css/style05.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+<div class="filatodo">
+    <div class="salmon">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad quasi recusandae odio! Delectus dolores nihil veniam suscipit incidunt illo, ipsa quos tempora voluptates magnam! Cumque, fugiat nisi. Necessitatibus, tempora!</div>
+    <div class="transparente1">
+        <div class="verde">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quia odit amet delectus mollitia animi quasi quam et nesciunt molestiae. Error recusandae repellendus inventore necessitatibus corporis reiciendis nemo hic ab!</div>
+        
+    </div>
+</div>
+
+    </main>
+</body>
+</html>
