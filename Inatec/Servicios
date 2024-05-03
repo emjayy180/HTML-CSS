@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de servicios</title>
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!---Aquí comenzamos con la cabecera de Inicio--->
+    <header>
+        <a href="index.html" title="Ir a mi página de inicio">
+            <img src="img/logo-inatec.jpg" alt="Logotipo del centro educativo Inatec">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Inicio">Inicio</a></li>
+                <li><a href="servicios.html" title="Ir al apartado de Servicios">Servicios</a>
+                    <ul>
+                        <li><a href="#servicio1" title="Ir al apartado de Servicios">Servicio 1</a></li>
+                        <li><a href="#servicio2" title="Ir al apartado de Servicios">Servicio 2</a></li>
+                        <li><a href="#servicio3" title="Ir al apartado de Servicios">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="quienesomos.html" title="Ir al apartado de Quiénes somos">Quiénes somos</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#presentacion"
+                                title="Presentación">Presentación</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#mision" title="Misión">Misión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#vision" title="Visión">Visión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#valores" title="Valores">Valores</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Contacto.html" title="Ir al apartado de Contacto">Contacto</a></li>
+                <li><a href="Blog.html" title="Ir al apartado de Blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Estos son mis servicios</h1>
+        <a href="#" class="ancla" id="servicio1"></a>
+        <section class="bg-claro">
+            <h2>Servicio 1</h2>
+            <div class="tercio">
+                <img src="img/inatec-aulas-bilbao-01.webp" alt="Imagen servicio 1">
+            </div>
+            <div class="dostercios">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis molestias aperiam,
+                    incidunt consequuntur ipsa? Dolor, aut cupiditate facilis ex perspiciatis iure inventore quis ut
+                    molestiae officiis accusantium consequuntur alias.</p>
+            </div>
+            </div>
+        </section>
+        <a href="#" class="ancla" id="servicio2"></a>
+        <section class="bg-oscuro">
+            <h2>Servicio 2</h2>
+            <div class="dostercios">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore sit dolorem sequi, nulla
+                    laudantium velit dolorum sunt culpa in quod, ipsam quasi exercitationem beatae! Beatae eligendi
+                    ducimus provident obcaecati sunt?</p>
+            </div>
+            <div class="tercio">
+                <img src="img/inatec-aulas-bilbao-02.webp" alt="Imagen servicio 2">
+            </div>
+        </section>
+        <a href="#" class="ancla" id="servicio3"></a>
+        <section class="bg-claro">
+            <h2>Servicio 3</h2>
+            <div class="tercio">
+                <img src="img/inatec-aulas-bilbao-03.webp" alt="Imagen servicio 3">
+            </div>
+            <div class="dostercios">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem accusantium temporibus minima qui
+                    error expedita voluptatem inventore repudiandae id quis, autem earum, adipisci dignissimos ut
+                    aliquid magnam esse, tempore labore.</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h3>Contacto</h3>
+
+                <p><i class="fa-solid fa-phone"></i>Número de teléfono:<a href="#" title="Llamar número de teléfono">
+                        666 777 888 </a></p>
+                <p><i class="fa-solid fa-at"></i>E-mail:<a href="#" title="Enviar mensaje a correo">
+                        lorem@dominio.com</a></p>
+                <p><i class="fa-solid fa-location-dot"></i>Dirección física:<a href="#"
+                        title="Ver direccion Google Maps"> Lorem 17, Ipsum</a></p>
+
+                <h3>Puedes seguirnos:</h3>
+                <p><a href="https://www.instagram.com/180.mjmj/" title="Ir a ver mi perfil de Instagram"><i
+                            class="fa-brands fa-instagram"></i>Instagram</a></p>
+                <p><a href="https://www.facebook.com/centroinatec/?locale=es_ES"
+                        title="Ir a ver mi perfil de Facebook"><i class="fa-brands fa-facebook"
+                            aria-hidden="true"></i>Facebook</a></p>
+                <p><a href="https://es.linkedin.com/company/the-walt-disney-company"
+                        title="Ir a ver mi perfil de LinkedIn"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad">Política de privacidad</a></li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
