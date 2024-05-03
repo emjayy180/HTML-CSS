@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 07 con etiquetas semánticas</title>
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+    <link href="CSS/Style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!--Aquí comenzamos la cabecera de nuestra web, con la etiqueta semántica header-->
+    <header>
+
+        <a href="index.html" title="Ir a mi página de inicio" style="background-color: #fff;">
+            <img src="img/logo-inatec.jpg" alt="Logotipo del centro educativo Inatec">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Ir al apartado del Item 1">Inicio</a></li>
+                <li><a href="servicios.html" title="Ir al apartado del Item 2">Servicios</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio1" title="Ir al apartado de Servicios">Servicio 1</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio2" title="Ir al apartado de Servicios">Servicio 2</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio3" title="Ir al apartado de Servicios">Servicio 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="quienesomos.html" title="Ir al apartado del Item 3">Quiénes somos</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#presentacion" title="Presentación">Presentación</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#mision" title="Misión">Misión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#vision" title="Visión">Visión</a></li>
+                        <li><a href="file:///C:/MJ/ejercicio-07/quienesomos.html#valores" title="Valores">Valores</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html" title="Ir al apartado del Item 4">Contacto</a></li>
+                <li><a href="blog.html" title="Ir al apartado del Item 5">Blog</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <!---<h1> Este es el título principal de mi página</h1>--->
+        <section class="bg-claro">
+            <h2>Estos son los servicios que ofrezco</h2>
+            <article class="tercio">
+                <h3>Servicio 1</h3>
+                <img src="img/inatec-aulas-bilbao-01.webp" alt="Imagen de mi primer servicio">
+                <p>Breve presentación del servicio número 1 que voy a ofrecer</p>
+                <p><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio1" title="Seguir informandome acerca de este servicio">Leer más</a></p>
+            </article>
+            <article class="tercio">
+                <h3>Servicio 2</h3>
+                <img src="img/inatec-aulas-bilbao-02.webp" alt="Imagen de mi segundo servicio">
+                <p>Breve presentación del servicio número 2 que voy a ofrecer</p>
+                <p></p><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio2" title="Seguir informandome acerca de este servicio">Leer más</a></p>
+            </article>
+            <article class="tercio">
+                <h3>Servicio 3</h3>
+                <img src="img/inatec-aulas-bilbao-03.webp" alt="Imagen de mi tercer servicio">
+                <p>Breve presentación del servicio número 3 que voy a ofrecer</p>
+                <p></p><a href="file:///C:/MJ/ejercicio-07/servicios.html#servicio3" title="Seguir informandome acerca de este servicio">Leer más</a></p>
+            </article>
+        </section>
+
+        <section class="bg-oscuro">
+            <h2>Quiénes somos</h2>
+            <div class="anchomaximo">
+                <img src="img/empresa.jpg" alt="Imagen de mi empresa">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus porro iure est reiciendis quasi
+                    provident. Error eius maiores reprehenderit voluptas iure deserunt, tempora beatae perferendis ipsa
+                    odit tenetur accusantium inventore?</p>
+            </div>
+        </section>
+        <section class="bg-claro">
+            <h2>Contacta con nosotros</h2>
+            <div class="anchomedio">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5811.170204026486!2d-2.9524444232115417!3d43.26011657112348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e503054a543e1%3A0x1c21fc975e291be7!2sPl.%20Garellano%2C%2014%2C%20Basurto-Zorroza%2C%2048013%20Bilbao%2C%20Vizcaya!5e0!3m2!1ses!2ses!4v1712734889514!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            </div>
+            <div class="anchomedio">
+                <h3>También puedes encontrarnos en:</h3>
+                <p><i class="fa-solid fa-phone"></i>Número de teléfono: <a href="tel: 666777222"
+                        title="Llámame al 666 77 72 22">666 77 72 22</a> </p>
+                <p><i class="fa-solid fa-at"></i>E-mail: <a href="mailto:info@midominio.com"
+                        title="Escribeme un email a info@midominio.com">info@dominio.com</a></p>
+                <p><i class="fa-solid fa-location-dot"></i>Dirección física: <a
+                        href="https://maps.app.goo.gl/EgRqxebQEaJw6LRd9" title="Ir a ver la ubicación en Google maps"
+                        target="_blank">Garellano 14. Bilbao.</a>.</p>
+                <h3>Puedes seguirnos:</h3>
+                <p><a href="https://www.instagram.com/180.mjmj/" title="Ir a ver mi perfil de Instagram"><i
+                            class="fa-brands fa-instagram"></i>Instagram</a></p>
+                <p><a href="https://www.facebook.com/centroinatec/?locale=es_ES"
+                        title="Ir a ver mi perfil de Facebook"><i class="fa-brands fa-facebook"
+                            aria-hidden="true"></i>Facebook</a></p>
+                <p><a href="https://es.linkedin.com/company/the-walt-disney-company"
+                        title="Ir a ver mi perfil de LinkedIn"><i class="fa-brands fa-linkedin"></i>LinkedIn</a></p>
+            </div>
+        </section>
+        <section>
+            <h2>Más actualidad</h2>
+            <div class="bg-oscuro">
+                <article class="cuarto">
+                    <h3>Artículo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem quo commodi
+                        repudiandae
+                        temporibus nulla ducimus, ad quidem sint. Veniam maxime nesciunt quidem non impedit? Ad
+                        repellendus
+                        sapiente atque mollitia? <a href="#" title="Ir a leer más 1">Leer más...<i
+                                class="fa-solid fa-angle-right"></i></a></p>
+                </article>
+                <article class="cuarto">
+                    <h3>Artículo 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem quo commodi
+                        repudiandae
+                        temporibus nulla ducimus, ad quidem sint. Veniam maxime nesciunt quidem non impedit? Ad
+                        repellendus
+                        sapiente atque mollitia? <a href="#" title="Ir a leer más 2">Leer más...<i
+                                class="fa-solid fa-angle-right"></i></a></p>
+                </article>
+                <article class="cuarto">
+                    <h3>Artículo 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem quo commodi
+                        repudiandae
+                        temporibus nulla ducimus, ad quidem sint. Veniam maxime nesciunt quidem non impedit? Ad
+                        repellendus
+                        sapiente atque mollitia? <a href="#" title="Ir a leer más 3">Leer más...<i
+                                class="fa-solid fa-angle-right"></i></a></p>
+                </article>
+                <article class="cuarto">
+                    <h3>Artículo 4</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptatem quo commodi
+                        repudiandae
+                        temporibus nulla ducimus, ad quidem sint. Veniam maxime nesciunt quidem non impedit? Ad
+                        repellendus
+                        sapiente atque mollitia? <a href="#" title="Ir a leer más 4">Leer más...<i
+                                class="fa-solid fa-angle-right"></i></a></p>
+                </article>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a></li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
