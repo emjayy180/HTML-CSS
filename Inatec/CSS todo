@@ -1,0 +1,300 @@
+/*Autora: MJ
+Año de realización: 2024*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Saira", sans-serif;
+}
+
+h1 {
+    color: rgb(145, 78, 15);
+    font-weight: 500;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(121, 51, 11);
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(143, 64, 0);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    margin: 0;
+    padding: 15px;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    left: 0px;
+    padding-left: 0;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul ul a {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0px;
+}
+
+header nav {
+    background-color: rgb(79, 170, 26);
+
+}
+
+a.ancla {
+    visibility: hidden;
+}
+
+.ancla::before {
+    display: block;
+    content: "";
+    margin-top: -219px;
+    height: 219px;
+}
+
+nav a,
+nav a:link {
+    background-color: rgb(79, 170, 26);
+    padding: 10px 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(60, 133, 27);
+    background-color: #46be6e;
+}
+
+nav a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none
+}
+
+article {
+    display: inline-block;
+    width: 31%;
+    margin: 0 1%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+article img {
+    width: 75%;
+    height: auto;
+}
+
+article a:hover {
+    background-color: #46be6e;
+    text-decoration: none;
+}
+
+.bg-claro {
+    background-color: #f3f3f3;
+    padding: 50px 0;
+}
+
+.bg-oscuro {
+    background-color: #bcbcbc;
+    padding: 50px 0;
+}
+
+.anchomaximo {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anchomaximo img,
+.anchomaximo p,
+.anchomedio {
+    width: 45%;
+    margin: 0 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.tercio {
+    width: 31%;
+    margin: 0 1%;
+    display: inline-block;
+}
+
+.dostercios {
+    width: 64%;
+    margin: 0 1%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cuarto {
+    width: 22.8%;
+    margin: 0 1%;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+}
+
+div img {
+    width: 100%;
+    margin: 0 1%;
+}
+
+.anchomedio img {
+    width: 100%;
+}
+
+.izquierda {
+    background-color: #f3f3f3;
+    box-sizing: border-box;
+}
+
+.izquierda h2 {
+    font-size: 30px;
+}
+
+.izquierda p {
+    text-align: start;
+    padding: 10px;
+}
+
+.contacto p {
+    width: 75%;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+/*contacto*/
+.move {
+    margin: 30px auto 70px;
+    width: 300px;
+    height: 150px;
+}
+
+section div {
+    margin: 30px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+fieldset {
+    border-color: yellowgreen;
+    border-width: 2px 4px 6px;
+    border-style: solid;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px rgb(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto 30px;
+}
+
+legend {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+input {
+    border: 2px solid rgb(79, 170, 26);
+    color: #707e53;
+    padding: 6px;
+    width: 60%;
+}
+
+input[type="radio"]:focus,
+input[type="radio"]:focus-within,
+input[type="radio"]:focus-visible {
+    border-radius: 50%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+input:focus,
+input:focus-within,
+input:focus-visible {
+    border: 2px solid rgb(90, 161, 43);
+    outline: none;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0.25);
+}
+
+input::placeholder {
+    font-style: italic;
+}
+input[type="reset"]{
+    width: 30%;
+    margin-bottom: 30px;
+}
+input[type="submit"] {
+    width: 30%;
+    background-color: rgb(255, 250, 176);
+    margin-bottom: 30px;
+}
