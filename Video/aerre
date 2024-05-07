@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A_Erre</title>
+    <link rel="stylesheet" href="css/styleaerre.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="top">
+                
+                <div class="fechas">
+                    <div>
+                        <p>1995</p>
+                    </div>
+                    <div class="raya">
+                        <hr>
+                    </div>
+
+                    <div>
+                        <p>2023</p>
+                    </div>
+                </div>
+             
+            </div>
+
+            <div class="video"><video width="1490" height="718" autoplay muted control loop>
+                    <source src="media/AErreDesign-video_web.webm">
+                </video></div>
+
+            <div class="bottom">
+                <div class="redes">
+                    <img src="img/instagram.png"><img src="img/linkedin.png">
+                </div>
+                <div class="espacio"></div>
+                <div class="contacto">
+                    <p> <a href="tel:944422735">944422735</a>
+                        <a href="mailto:aerre@aerredesign.com">aerre@aerredesign.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+
+CSS
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+
+}
+
+main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    width: 980px;
+    flex-direction: row;
+    max-width: 1490px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+
+
+.fechas {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: end;
+
+}
+
+.raya {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 5px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+    max-width: 1490px;
+    margin: 0px auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.redes {
+    align-items: flex-start;
+}
+
+.espacio {
+    width: 66%;
+}
+
+.contacto {
+    align-items: flex-end;
+}
