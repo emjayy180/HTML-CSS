@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="ir a mi página de inicio">
+            <img src="img/logo1.jpg" alt="logo" style="height: 100px; width: 100px;">
+        </a>
+        <nav>
+            <ul>
+                <li> <a href="#" title=""> Inicio</a></li>
+                <li> <a href="#" title="">Quiénes somos</a></li>
+                <li> <a href="#" title="">Servicios</a></li>
+                <li> <a href="#" title="">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="bg-fondo">
+         <h1>Blueberry</h1>
+  
+    </section>
+
+</body>
+
+</html>
+
+CSS
+
+:root {
+    --oscuro: #000;
+    --blanco: #fff;
+    --enlaces: rgba(0, 0, 0, 0.70);
+}
+ 
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #000;
+    width: 100%;
+}
+
+nav {
+    background-color: #000;
+    width: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 100%;
+    
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+h1 {
+    background-color: var(--enlaces);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.bg-fondo {
+    background-image: url(../img/img-fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 5rem 0;
+}
