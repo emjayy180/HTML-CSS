@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ehxJUn54Dv8?si=6zV8IAr2jvrsDCEP"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+<script src="https://player.vimeo.com/ap1/player.js"></script>
+
+    <video width="960" height="540" autoplay muted controls loop>
+        <source src="medios/monitos.mp4" type="video/mp4">
+    </video>
+
+
+</body>
+
+</html>
+
