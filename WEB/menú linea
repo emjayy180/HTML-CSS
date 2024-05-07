@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo menu con flexbox</title>
+    <link rel="stylesheet" href="css/style-menu.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo-inatec.jpg" alt="Logotipo de Inatec">
+        <nav>
+            <ul>
+                <li><a href="#" title="">Inicio</a></li>
+                <li><a href="#" title="">Quiénes somos</a></li>
+                <li><a href="#" title="">Servicios</a></li>
+                <li><a href="#" title="">Contacto</a></li>
+                <li><a href="#" title="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
+
+
+CSS
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: bisque;
+    display: flex;
+}
+nav {
+    background-color: burlywood;
+    width: calc(100% - 220px);
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100%;
+}
