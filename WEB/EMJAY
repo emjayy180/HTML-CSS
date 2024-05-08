@@ -1,21 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMJAY</title>
     <link href="css/stylemj.css" rel="stylesheet" type="text/css">
-    
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
-</body>
-</html>
 
+<body>
+
+    <header>
+        <a href="mj.html" title="Ir a mi página de Inicio">
+            <img src="img/Proyecto nuevo.png" alt="Logo MJ" style="height: 50px; width: 50px;">
+        </a>
+
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Portfolio</li>
+                <li>Sobre mí</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="imagenfondo">
+        <img src="img/Proyecto nuevo.png" alt="Logo MJ">
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><i class="fa-brands fa-tiktok"></i></li>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a></li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
 CSS
 
 /*Autora: MJ
 Año de realización: 2024*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    display: flex;
+   /* background-color: #d9d9d9;*/
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+nav {
+  /*  background-color: #afafaf;*/
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    /*  font-family: "Inter", sans-serif;*/
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.imagenfondo {
+    display:flex ;
+   justify-content: center;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+header, section, footer {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 
