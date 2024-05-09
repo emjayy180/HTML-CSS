@@ -13,29 +13,41 @@
 
     <header>
         <a href="mj.html" title="Ir a mi página de Inicio">
-            <img src="img/Proyecto nuevo.png" alt="Logo MJ" style="height: 50px; width: 50px;">
+            <img src="img/template.png" alt="Logo MJ" style="height: 80px; width: 80px;">
         </a>
 
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Portfolio</li>
-                <li>Sobre mí</li>
-                <li>Contacto</li>
+                <li><a href="#" title="">Inicio</a></li>
+                <li><a href="#" title="">Portfolio</a>
+                    <ul>
+                        <li><a href="#" title=""> Proyecto 1</a></li>
+                        <li><a href="#" title=""> Proyecto 2</a></li>
+                        <li><a href="#" title=""> Proyecto 3</a></li>
+                        <li><a href="#" title=""> Proyecto 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="">Sobre mí</a></li>
+                <li><a href="#" title="">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="imagenfondo">
-        <img src="img/Proyecto nuevo.png" alt="Logo MJ">
+        <img src="img/Proyecto nuevo.png" alt="Logo MJ" style="height: 760px;">
     </section>
+
     <footer>
+        <div class="redesfooter">
+            <img src="img/logotipo-de-instagram.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
+            <img src="img/behance-2161.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
+            <img src="img/linkedin_black_logo_icon_147114.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
+        </div>
         <nav>
             <ul>
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
-                <li><i class="fa-brands fa-tiktok"></i></li>
-                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a></li>
+
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a>
+                </li>
                 <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
             </ul>
         </nav>
@@ -44,6 +56,7 @@
 </body>
 
 </html>
+
 CSS
 
 /*Autora: MJ
@@ -59,14 +72,17 @@ body {
 
 header {
     display: flex;
-   /* background-color: #d9d9d9;*/
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    /* background-color: #d9d9d9;*/
 }
-
+header,
+section,
+footer {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
 nav {
-  /*  background-color: #afafaf;*/
+    /*  background-color: #afafaf;*/
     width: 100%;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -77,21 +93,54 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    align-items: end;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding-left: 600px;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+ul li {
+    position: relative;
+
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    left: -1rem;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul ul li a {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    display: flex;
 }
 
 .imagenfondo {
-    display:flex ;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
-    margin-top: 50px;
-    margin-bottom: 10px;
+    display: flex;
+    height: 84px;
 }
-header, section, footer {
-    width: 80%;
-    max-width: 1400px;
-    margin: 0 auto;
+.redesfooter {
+display: flex;
 }
+
 
