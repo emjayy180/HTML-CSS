@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso contacto</title>
+    <link href="css/contacto.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <main>
+        <h1>Formulario</h1>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>TUS DATOS</legend>
+                    <label for="nombre">¿Cuál es tu nombre?
+                        <input type="text" id="nombre" placeholder="Escribe tu nombre" autofocus required>
+                    </label>
+                    <label for="apellidos">¿Y tus apellidos?
+                        <input type="text" id="apellidos" placeholder="Escribe tus apellidos">
+                    </label>
+                    <label for="Edad">¿Cuántos años tienes?</label>
+                    <select id="Edad" size="3" multiple>
+                        <option value="1">Entre 18 y 30</option>
+                        <option value="2">Entre 31 y 50</option>
+                        <option value="3">Más de 50</option>
+                    </select>
+
+                </fieldset>
+                <fieldset>
+                    <legend>FORMAS DE CONTACTO</legend>
+                    <label for="email">¿Me facilitas tu E-mail?
+                        <input type="email" id="email" name="email">
+                    </label>
+                    <label for="telefono">¿Y tu teléfono?
+                        <input type="tel" id="telefono" name="telefono">
+                    </label>
+                    <p>¿Cómo prefieres que contacte contigo?
+                    <p>
+                        <label for="poremail"><input type="checkbox" id="poremail"  name="formacontacto">Por E-mail</label>
+                        <label for="portelefono"><input type="checkbox" id="portelefono" name="formacontacto">Por
+                            teléfono</label>
+                </fieldset>
+                <fieldset>
+                    <legend>TU MENSAJE</legend>
+                    <label for="mensaje">¿Qué me quieres contar?</label>
+                    <textarea name="mensaje" id="mensaje" cols="60" rows="10"></textarea>
+                </fieldset>
+                <label for="aceptacion"> <input type="checkbox" id="aceptacion" name="aceptacion" value="aceptacion"> Acepto la  <a href="#" title="Link a política de privacidad"> política de privacidad</a></label>
+                <input type="reset" value="Eliminar datos">
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
+CSS
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+fieldset {
+    width: 50%;
+}
