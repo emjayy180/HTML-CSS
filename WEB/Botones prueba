@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ.180</title>
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" title="Inicio">Inicio</a></li>
+                <li><a href="#" title="Sobre mí">Sobre mí</a></li>
+                <li><a href="#" title="Trabajos">Trabajos</a></li>
+                <li><a href="#" title="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<img src="img/Proyecto nuevo2.png" alt="Imagen inicio" class="centrada">
+    </main>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#" title="Ir a ver la Política de privacidad">Política de Privacidad</a></li>
+            <li><a href="#" title="Ir a ver la Política de Cookies">Política de Cookies</a></li>
+        </ul>
+    </nav>
+</footer>
+</html>
+
+CSS
+
+/*Autora:MJ
+Año de realización: 2024*/
+
+*{
+    box-sizing: border-box;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+li {
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    margin: 0;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    flex-direction:row-reverse ;
+}
+nav a, 
+nav a:link {
+  padding: 10px 5px;
+  margin: 0;
+  text-decoration: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: rgb(0, 17, 255);
+    border: 1px solid #000;
+}
+nav a:visited {
+    color: #000;
+}
+.centrada {
+display: block;
+margin: 0 auto;
+width: 50%;
+}
