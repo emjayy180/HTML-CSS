@@ -13,7 +13,7 @@
 
     <header>
         <a href="mj.html" title="Ir a mi página de Inicio">
-            <img src="img/template.png" alt="Logo MJ" style="height: 80px; width: 80px;">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px; width: 80px;">
         </a>
 
         <nav>
@@ -34,7 +34,7 @@
     </header>
 
     <section class="imagenfondo">
-        <img src="img/Proyecto nuevo.png" alt="Logo MJ" style="height: 760px;">
+        <img src="img/photoshop3.png" alt="Logo MJ" style="height: 560px;">
     </section>
 
     <footer>
