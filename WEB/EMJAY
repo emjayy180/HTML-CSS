@@ -13,7 +13,7 @@
 
     <header>
         <a href="mj.html" title="Ir a mi página de Inicio">
-            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px; width: 80px;">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
         </a>
 
         <nav>
@@ -38,10 +38,10 @@
     </section>
 
     <footer>
-        <div class="redesfooter">
-            <img src="img/logotipo-de-instagram.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
-            <img src="img/behance-2161.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
-            <img src="img/linkedin_black_logo_icon_147114.png" alt="Icono de Instagram" style="height: 30px; width: 30px;">
+        <div class="socials">
+            <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="behance"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <nav>
             <ul>
@@ -64,6 +64,11 @@ Año de realización: 2024*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+.root {
+    --principal: #000;
+    --secundario: #000;
+}
+
 html,
 body {
     margin: 0%;
@@ -74,29 +79,36 @@ header {
     display: flex;
     /* background-color: #d9d9d9;*/
 }
+
 header,
 section,
 footer {
     width: 80%;
     max-width: 1400px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
+
 nav {
     /*  background-color: #afafaf;*/
-    width: 100%;
+    width: 50%;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     /*  font-family: "Inter", sans-serif;*/
+
+}
+nav a:hover {
+    border: 2px solid #000;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     margin: 0;
-    padding-left: 600px;
 }
 
 li {
@@ -104,10 +116,12 @@ li {
     position: relative;
     margin: 0;
 }
+
 li a {
     text-decoration: none;
     color: black;
 }
+
 ul li {
     position: relative;
 
@@ -135,12 +149,30 @@ ul ul li a {
     justify-content: center;
 }
 
+.imagenfondo img {
+    padding: 100px;
+}
+
 footer {
     display: flex;
     height: 84px;
 }
-.redesfooter {
-display: flex;
+
+.socials {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
 }
 
+.socials a {
+    margin: 0 15px 10px 0;
+    color: #000;
+    font-size: 40px;
+}
 
+/*.socials .fa-instagram, .socials .fa-square-behance {
+    font-size: 2rem;
+}
+.socials .fa-square-linkedin {
+    font-size: 2em;
+}*/
