@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios en base a la propiedad Position</title>
+    <link rel="stylesheet" href="css/style_fixed.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div id="whatsapp">W</div>
+        <div id="top">
+            <nav>
+                <ul>
+                    <li><a href="index_relative.html">Relative</a></li>
+                    <li><a href="index_absolute.html">Absolute</a></li>
+                    <li><a href="index_sticky.html">Sticky</a></li>
+                    <li><a href="index_fixed.html">Fixed</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <h1>El principito</h1>
+            <p>Este header va a tener una posicion </p>
+            <nav>
+                <ul>
+                    <li><a href="#parte1">Parte 1</a></li>
+                    <li><a href="#parte2">Parte 2</a></li>
+                    <li><a href="#parte3">Parte 3</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 id="parte1">Parte 1: Cómo me hice piloto</h2>
+        <p>Cuando yo tenía 6 años, leí un libro sobre los animales de la selva. Ese libro explicaba que las boas se
+            tragan a sus presas sin masticarlas.</p>
+        <p>Después de comer, pasan 6 meses sin moverse para hacer la digestión.</p>
+        <p>Pensé mucho sobre la selva y las boas e hice el primer dibujo de mi vida. </p>
+        <p>Enseñé mi dibujo a las personas grandes y les pregunté si les asustaba, pero pensaban que era un sombrero y
+            no entendían mi pregunta. </p>
+        <p>Las personas grandes nunca comprenden nada por sí solas, y es agotador para los niños, tener que darles
+            explicaciones siempre. Una boa es una serpiente que mide unos 10 metros. Estrangula a sus presas y se las
+            traga enteras.</p>
+        <p>Así que hice mi dibujo 2 para aclarar que se trataba de una boa que se come un elefante.</p>
+        <p>Las personas grandes me aconsejaron que pensara más en la geografía, la historia y el cálculo. Así que
+            abandoné la idea de ser pintor. </p>
+        <p>Tenía que elegir otro oficio y me hice piloto de aviones. Viajé por todo el mundo y conocí a mucha gente
+            seria. Siempre llevaba conmigo mi dibujo número 1 y cuando conocía a una persona grande que me parecía más
+            espabilada, le enseñaba el dibujo.</p>
+        <p>Pero la persona grande siempre pensaba que mi dibujo era un sombrero. Así que yo me ponía a su altura y le
+            hablaba de política y corbatas. </p>
+        <p>La persona grande pensaba que yo era un adulto muy razonable y se quedaba contenta. </p>
+        <p>Durante mucho tiempo viví bastante solo, porque no tenía a nadie con quien hablar de cosas importantes. </p>
+        <p>En realidad, yo soy un poco como las personas grandes. Doy demasiadas explicaciones. Debo de haber
+            envejecido. </p>
+        <p>Escribo todo esto para recordar a un amigo. Es muy triste olvidar a un amigo. No todo el mundo ha tenido uno.
+        </p>
+        <h2 id="parte2">Parte 2: Como conocí al principito</h2>
+        <p>Hace 6 años, estaba volando sobre el desierto del Sahara y se estropeó el motor de mi avión. </p>
+        <p>Estaba completamente solo. No tenía mecánico ni pasajeros. Tenía que reparar el avión yo mismo y solo tenía
+            agua para 8 días. </p>
+        <p>Era una cuestión de vida o muerte. La primera noche me quedé dormido sobre la arena a miles de kilómetros de
+            cualquier lugar habitado. Me sentía como un náufrago en medio del océano. </p>
+        <p>Os podéis imaginar mi sorpresa cuando me despertó una extraña vocecita que me dijo: </p>
+        <p><em>vocecita</em> — Por favor, ¡dibújame un cordero! </p>
+        <p>Di un respingo y me froté los ojos. Vi una personita extraordinaria que me miraba fijamente.</p>
+        <p>Esa personita no parecía asustada, ni hambrienta, ni sedienta ni tenía miedo. No parecía alguien perdido en
+            medio del desierto. </p>
+        <p>Este es el mejor retrato que hice de él. Mi dibujo no es tan fascinante como la persona real. </p>
+        <p>Pero no es culpa mía, las personas grandes me desanimaron y dejé de dibujar. Solo aprendí a hacer elefantes
+            dentro de boas.</p>
+        <p>Cuando me recuperé de la sorpresa pregunté a esta personita: </p>
+        <p><em>yo</em> — ¿Qué haces aquí? </p>
+        <p>Pero no contestó. Me volvió a pedir: </p>
+        <p><em>personita</em> — Por favor, dibújame un cordero. </p>
+        <p>Como si fuera una cosa muy seria. El misterio de esa petición era tan grande, que no pude desobedecer. </p>
+        <p>Como no sabía dibujar, dibujé lo único que había dibujado en toda mi vida: la boa que se come un elefante.
+            Aquella personita me dijo: </p>
+        <p><em>personita</em> — ¡No! Eso es un elefante dentro de una boa. Mi casa es muy pequeña, no cabe un elefante y
+            las boas son peligrosas. Dibújame un cordero.</p>
+        <p>Me quedé muy sorprendido, nadie había entendido nunca mi dibujo. Así que dibujé un cordero. Aquella personita
+            lo miró con atención y me dijo: </p>
+        <p><em>personita</em> — ¡No! Este cordero está muy enfermo. Haz otro. </p>
+        <p>El siguiente cordero que dibujé tampoco le gustó porque decía que tenía cuernos y que no era un cordero, que
+            era un carnero. Un carnero es el macho adulto de la oveja.</p>
+        <p>El tercer cordero que dibujé era demasiado viejo y él quería un cordero que viva mucho tiempo. </p>
+        <p>Se me acabó la paciencia, así que dibujé una caja y le dije: </p>
+        <p><em>yo</em> — Tu cordero está dentro de esta caja. </p>
+        <p>Aquella personita sonrío feliz y dijo: </p>
+        <p><em>personita</em> — ¡Es exactamente como lo quería! </p>
+        <p>Me quedé muy sorprendido. Me preguntó: </p>
+        <p><em>personita</em> — ¿Crees que este cordero necesita mucha hierba? Es que en mi casa todo es muy pequeño.
+        </p>
+        <p>Y así fue cómo conocí al principito.</p>
+        <h2 id="parte3">Parte 3: El planeta del rpincipito</h2>
+        <h3>Los baobabs. Los volcanes. Las puestas de sol. La flor</h3>
+        <p>Los días pasaban mientras yo reparaba el motor y hablaba con el principito. </p>
+        <p>Un día, el principito miró mi avión y me preguntó: </p>
+        <p><em>principito</em> — ¿Qué es eso? </p>
+        <p><em>yo</em> — Es un avión. Sirve para volar. </p>
+        <p><em>principito</em> — Entonces, ¿tú también has venido de otro planeta? </p>
+        <p>Cuando me hizo esa pregunta, todo me pareció más claro. Y le pregunté: </p>
+        <p><em>yo</em> — Así que, tú vienes de otro planeta, ¿verdad? </p>
+        <p>Pero no me contestó. El principito nunca renunciaba a una pregunta y nunca contestaba las mías. </p>
+        <p>Necesité mucho tiempo para saber de dónde venía.</p>
+        <p>El principito cogió el cordero que yo le había dibujado y lo miró. </p>
+        <p><em>principito</em> — Me gusta la caja del cordero porque puede ser su casa de noche. </p>
+        <p><em>yo</em> — También te puedo dibujar una cuerda y un palo para que lo ates. </p>
+        <p>Esa idea parecía disgustar al principito. </p>
+        <p><em>principito</em> — ¿Atarlo? ¿Para qué? </p>
+        <p><em>yo</em> — Para que no se escape. </p>
+        <p>El principito se echó a reír y dijo: </p>
+        <p><em>principito</em> — No importa, donde yo vivo es muy pequeño. Aunque camines y camines, nunca puedes ir muy
+            lejos. </p>
+        <p>Así supe que su planeta era muy pequeño, casi tanto como una casa. </p>
+        <p>Tengo serías razones para pensar que el principito vive en el asteroide B12. </p>
+        <p>Un asteroide es un planeta muy pequeño. Puede ser tan pequeño como una roca.20 </p>
+        <p>La verdad es que existen muchos asteroides que no tienen nombre porque son muy pequeños. </p>
+        <p>Cuando un astrónomo descubre uno, le pone un número o un código. </p>
+        <p>Explico cuál es el número del asteroide para las personas grandes. Las personas grandes aman los números.
+        </p>
+        <p>Cuando le hablas de un amigo nuevo, nunca te preguntan lo importante. Como, por su tono de voz o si
+            colecciona mariposas. </p>
+        <p>Te preguntan qué edad tiene, cuántos hermanos tiene o cuánto pesa. </p>
+        <p>Un astrónomo es una persona que estudia las estrellas, los planetas y todo lo que contiene el Universo.</p>
+        <h3>Los baobabs </h3>
+        <p>Cada día conocía un poco más sobre la vida del principito. </p>
+        <p>El tercer día descubrí el drama de los baobabs. </p>
+        <p>El principito me preguntó muy serio si los corderos comían arbustos. Yo le dije que sí y él se puso muy
+            contento. </p>
+        <p><em>principito</em> — Entonces, ¿los corderos también comen baobabs? </p>
+        <p>Yo le expliqué que los baobabs no son arbustos, son árboles gigantescos. </p>
+        <p><em>principito</em> — Pero, primero son pequeños y luego crecen, ¿verdad? Mi cordero se los puede comer
+            cuando todavía son pequeños. </p>
+        <p><em>yo</em> — Eso es cierto. Pero ¿por qué es tan importante que tu cordero coma baobabs? </p>
+        <p><em>principito</em> — ¡Es evidente! Un baobab es un tipo de árbol que crece en África. Puede medir hasta 10
+            metros de alto.</p>
+        <p>El principito no explicó nada más y yo tuve que pensar bastante para entender el problema.</p>
+        <p>El planeta del principito es muy pequeño. </p>
+        <p>Si un baobab crece, puede invadir todo el planeta y hacerlo estallar con sus raíces. </p>
+        <p>Esto es lo que pasa cuando un baobab crece.</p>
+        <p>Me esforcé mucho en hacer este dibujo porque es importante prevenir a la gente sobre el peligro de los
+            baobabs.</p>
+        <p>Si os perdéis en un asteroide, no olvidéis lo peligrosos que son. </p>
+        <p>Por eso, todas las mañanas, después de asearse, el principito limpia su planeta y arranca todos los brotes de
+            baobabs que crecen entre la hierba. </p>
+        <p>El principito me explicó que era una tarea muy aburrida, pero muy fácil. </p>
+        <p>Hay que tener cuidado para no confundir los brotes de baobabs con los brotes de flores. </p>
+        <p>Un brote es una planta cuando está naciendo y es muy pequeña.</p>
+        <h3>Los volcanes </h3>
+        <p>En el planeta del principito, había tres volcanes. </p>
+        <p>Todos los días el principito los deshollinaba. </p>
+        <p>Si los volcanes están bien
+            limpios, sus erupciones son pequeñas, como el fuego de una chimenea. </p>
+        <p>El principito utiliza el calor de los
+            volcanes para calentar el desayuno por las mañanas. </p>
+        <p>Las personas somos demasiado pequeñas para deshollinar
+            los volcanes de la Tierra, por eso provocan tantas catástrofes. </p>
+        <p>Deshollinar significa limpiar una chimenea o
+            un volcán de ceniza.</p>
+        <p>Las puestas de sol El cuarto día, el principito me dijo: </p>
+        <p><em>principito</em> — ¡Me encantan
+            las puestas de Sol! Vamos a ver una. </p>
+        <p><em>yo</em> — Pero tenemos que esperar a que el Sol se ponga. </p>
+        <p>El principito me
+            miró sorprendido. </p>
+        <p><em>principito</em> — Es verdad, ¡me olvidé de que no estoy en mi hogar! </p>
+        <p>El planeta del principito
+            es tan pequeño que para ver una puesta de sol, solo tenía que caminar unos pasos. </p>
+        <p>El principito me explicó
+            que las puestas de sol son muy agradables cuando estás triste. </p>
+        <p>Un día vio 43 puestas de sol. Yo le pregunté
+            si estaba muy triste ese día, pero él no me contestó.</p>
+        <h3>La flor </h3>
+        <p>El quinto día conocí un nuevo secreto de la
+            vida del principito. </p>
+        <p><em>principito</em> — Si un cordero come arbustos, ¿también come flores? </p>
+        <p>Me lo preguntó de
+            manera brusca. Parecía que había meditado sobre ello durante mucho tiempo. </p>
+        <p><em>yo</em> — Un cordero come todo lo que
+            encuentra. </p>
+        <p><em>principito</em> — ¿Incluso las flores con espinas? </p>
+        <p><em>yo</em> — Sí, también las flores con espinas. </p>
+        <p><em>principito</em> — Entonces, ¿para qué sirven las espinas? </p>
+        <p>Yo no lo sabía y además, estaba ocupado arreglando mi avión.</p>
+        <p>
+            También estaba muy preocupado porque el agua se acabaría pronto. </p>
+        <p>No me di cuenta de lo preocupado que estaba
+            el principito.</p>
+        <p>Como yo no respondía a su pregunta, el principito insistió: </p>
+        <p><em>principito</em> — Entonces, ¿para
+            qué sirven las espinas? </p>
+        <p>El principito nunca renunciaba a una pregunta. Yo le contesté molesto: </p>
+        <p><em>yo</em> — Las
+            espinas no sirven para nada. Las flores solo las tienen porque son malvadas. </p>
+        <p>El principito se quedó callado
+            durante un rato y luego me dijo con rencor: </p>
+        <p><em>principito</em> — No te creo. Las flores son ingenuas y débiles. Se
+            protegen como pueden. </p>
+        <p>Yo no le respondí nada. Estaba molesto porque no conseguía reparar el motor de mi
+            avión. </p>
+        <p>El rencor es un sentimiento que sucede cuando alguien te ha hecho daño y no le has perdonado.</p>
+        <p>El
+            principito me volvió a interrumpir y le grité: </p>
+        <p><em>yo</em> — ¡No lo sé! ¡Te he contestado lo primero que se me ha
+            ocurrido! ¡Yo me ocupo de cosas serias! </p>
+        <p>El principito me miró extrañado. </p>
+        <p><em>principito</em> — ¿Cosas serias? </p>
+        <p>El
+            principito me observaba. Yo tenía un martillo, las manos sucias y me inclinaba sobre el motor, que a él le
+            parecía muy feo. </p>
+        <p><em>principito</em> — ¡Hablas como las personas grandes! </p>
+        <p>Me avergonzó que pensara eso. El principito
+            añadió: </p>
+        <p><em>principito</em> — ¡Lo confundes todo! ¡Lo mezclas todo!</p>
+        <p>El principito estaba realmente enfadado.
+        </p>
+        <p><em>principito</em> — Conozco un planeta donde hay un señor que nunca ha olido una flor, que nunca ha mirado
+            una
+            estrella y que nunca ha amado a nadie. Solo sabe hacer sumas y repite sin parar que es un hombre serio,
+            igual que tú. Pero no es un hombre, ¡es un hongo! </p>
+        <p>El principito seguía hablando, rojo de ira: </p>
+        <p><em>principito</em> —
+            Desde hace millones de años las flores tienen espinas. Desde hace millones de años, los corderos se comen
+            las flores a pesar de las espinas. ¿No te parece una cosa seria entender por qué las flores fabrican espinas
+            si no sirven para nada?</p>
+        <p><em>principito</em> — ¿Qué es más importante, esta guerra entre flores y corderos o las
+            sumas de aquel señor? Yo tengo una flor que es única en el mundo. Solo existe en mi planeta. Un cordero se
+            puede comer mi flor, ¿y eso no es importante? </p>
+        <p>El principito no pudo decir nada más. Rompió a llorar. Ya no
+            me importaba mi motor, ni la sed, ni la muerte. </p>
+        <p>Había un principito que necesitaba consuelo. Abracé al
+            principito y lo acuné. Le dije: </p>
+        <p><em>yo</em> — Dibujaré un bozal para el cordero, y una armadura para proteger a la
+            flor. Dibujaré lo que necesites. </p>
+        <p>No sabía que más decir. No sabía cómo consolarlo. El país de las lágrimas
+            es muy misterioso.</p>
+        <p>El principito me contó la historia de su flor. Una mañana descubrió un brote de hierba
+            diferente. </p>
+        <p>El principito observó el brote con atención, preocupado por si era un brote de baobab. </p>
+        <p>Después de
+            muchos días, nació una flor muy hermosa, y también muy coqueta. </p>
+        <p>La flor eligió sus colores y se vistió con
+            cuidado. </p>
+        <p>El principito estaba maravillado por la belleza de la flor, pero enseguida se dio cuenta de que era
+            un poco vanidosa. </p>
+        <p>La flor pedía muchos cuidados al principito. </p>
+        <p>También decía que era tan valiente que no
+            tenía miedo a enfrentarse a un tigre. </p>
+        <p>Algunas veces la flor se inventaba mentiras para impresionar al
+            principito. </p>
+        <p>Llegó un día en que el principito se cansó de vivir con una flor tan vanidosa y decidió
+            marcharse de su planeta. </p>
+        <p>El principito decidió dejar su planeta y viajar por el universo para aprender y
+            conocer otras ocupaciones.</p>
+    </main>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+</body>
+
+</html>
+
+CSS
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /* 100% */
+    font-size: 18px;
+}
+header {
+    background-color: blanchedalmond;
+    border: 10px solid #000;
+    width: 100%;
+    padding: 0 0 50px;
+    box-sizing: border-box;
+    /*Esta propiedad, con ese valor, hace que el padding quede dentro de la anchura que hemos asignado. La anchura no varia. asignemos el padding que asignemos.*/
+    text-align: center;
+    position: fixed;
+}
+#top {
+    background-color: aliceblue;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 5px 10px;
+    background-color: aquamarine;
+}
+main {
+    background-color: rgb(181, 241, 243);
+    padding: 100px 50px;
+}
+footer {
+    background-color: darkgray;
+    padding: 50px 0;
+}
+p {
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+#whatsapp {
+    background-color: green;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
