@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMJAY</title>
+    <link href="css/stylemj.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="mj.html" title="Ir a mi página de Inicio">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="mj.html" title="">Inicio</a></li>
+                <li><a href="portfolio.html" title="">Portfolio</a>
+                    <ul>
+                        <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
+                        <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
+                        <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
+                        <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                <li><a href="contacto.html" title="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <article>
+                    <a href="#" title="Proyecto 1"><img src="img/2.png" alt="Proyecto 1"></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem deserunt
+                        possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
+                        ipsum
+                        fuga mollitia accusantium dolor?</p>
+                </article>
+                <article>
+                    <a href="#" title="Proyecto 2"><img src="img/1.png" alt="Proyecto 2"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro itaque minus obcaecati autem
+                        sit fugit illum quidem amet excepturi? Assumenda unde autem nam doloribus? Alias qui facilis
+                        repellendus explicabo.</p>
+                </article>
+                <article>
+                    <a href="#" title="Proyecto 3"><img src="img/2.png" alt="Proyecto 3"></a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae non amet nam maiores quo,
+                        repellat harum. Repudiandae error ipsam optio facere quo tenetur quae, fugiat necessitatibus
+                        temporibus eveniet culpa nostrum.</p>
+                </article>
+                <article>
+                    <a href="#" title="Proyecto 4"><img src="img/1.png" alt="Proyecto 4"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam repudiandae totam reprehenderit
+                        obcaecati, illo maxime voluptatem iure in possimus numquam iusto modi. Et expedita praesentium
+                        hic a sint, neque aspernatur?</p>
+                </article>
+                <article>
+                    <a href="#" title="Proyecto 5"><img src="img/2.png" alt="Proyecto 5"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae soluta, quis deserunt esse
+                        itaque accusantium asperiores accusamus iusto molestiae at quae, explicabo veniam tenetur.
+                        Dignissimos repellendus voluptatibus hic ducimus eligendi!</p>
+                </article>
+                <article>
+                    <a href="#" title="Proyecto 6"><img src="img/1.png" alt="Proyecto 6"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima provident, accusantium fuga,
+                        ducimus, ipsam consequuntur veritatis ab error et exercitationem animi id molestias numquam
+                        sunt! Earum dolores nesciunt delectus architecto.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="behance"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a>
+                </li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
