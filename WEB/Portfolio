@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMJAY</title>
+    <link href="css/stylemj.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="mj.html" title="Ir a mi página de Inicio">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="mj.html" title="">Inicio</a></li>
+                <li><a href="portfolio.html" title="">Portfolio</a>
+                    <ul>
+                        <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
+                        <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
+                        <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
+                        <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                <li><a href="contacto.html" title="">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <div class="imagenes">
+            <a href="portfolio2.html" class="ancla" id="proyecto1"><img src="img/2.png" alt="Proyecto 1"></a>
+            <a href="portfolio2.html" class="ancla" id="proyecto2"><img src="img/1.png" alt="Proyecto 2"></a>
+            <a href="portfolio2.html" class="ancla" id="proyecto3"><img src="img/2.png" alt="Proyecto 3"></a>
+
+            <a href="portfolio2.html" class="ancla" id="proyecto4"><img src="img/1.png" alt="Proyecto 4"></a>
+            <a href="portfolio2.html" class="ancla" id="proyecto5"><img src="img/2.png" alt="Proyecto 5"></a>
+            <a href="portfolio2.html" class="ancla" id="proyecto6"><img src="img/1.png" alt="Proyecto 6"></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="socials">
+            <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="behance"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a>
+                </li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
