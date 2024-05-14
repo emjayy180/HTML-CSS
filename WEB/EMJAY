@@ -21,10 +21,10 @@
                 <li><a href="mj.html" title="">Inicio</a></li>
                 <li><a href="portfolio.html" title="">Portfolio</a>
                     <ul>
-                        <li><a href="#" title=""> Proyecto 1</a></li>
-                        <li><a href="#" title=""> Proyecto 2</a></li>
-                        <li><a href="#" title=""> Proyecto 3</a></li>
-                        <li><a href="#" title=""> Proyecto 4</a></li>
+                        <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
+                        <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
+                        <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
+                        <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
                     </ul>
                 </li>
                 <li><a href="sobremi.html" title="">Sobre mí</a></li>
@@ -72,6 +72,7 @@ html,
 body {
     margin: 0%;
     padding: 0%;
+    height: 100vh;
 }
 
 header {
@@ -87,8 +88,13 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-}
 
+}
+.ancla::before {
+    display: block;
+    content: "";
+    
+}
 nav {
     /*  background-color: #afafaf;*/
     width: 50%;
@@ -97,13 +103,16 @@ nav {
     /*  font-family: "Inter", sans-serif;*/
 
 }
-nav a:hover {
-    border: 2px solid #000;
-    
-}
 nav a, nav a:link {
     padding: 10px 5px;
+    border: 2px solid transparent;
 }
+nav a:hover {
+    border: 2px solid #000;
+    background-color: #fff;
+    
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -137,6 +146,7 @@ ul ul {
 
 ul li:hover ul {
     display: block;
+    margin-top: 10px;
 }
 
 ul ul li a {
@@ -156,13 +166,13 @@ ul ul li a {
 
 footer {
     display: flex;
-    height: 84px;
+    height: 90px;
 }
 
 .socials {
     display: flex;
     align-items: center;
-    padding-top: 10px;
+
 }
 
 .socials a {
@@ -180,6 +190,17 @@ footer {
 
 .imagenes {
 display: flex;
-margin: 100px;
+margin: 0 auto;
 flex-wrap: wrap;
+padding: 90px;
+justify-content: center;
+gap: 70px;
+max-width: 1400px;
+width: 80%;
+cursor: pointer;
+transition: 2s;
+}
+.imagenes a:hover {
+    transform: scale(1.1);
+    transition: 2s;
 }
