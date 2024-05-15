@@ -75,11 +75,6 @@ body {
     height: 100vh;
 }
 
-header {
-    display: flex;
-    /* background-color: #d9d9d9;*/
-}
-
 header,
 section,
 footer {
@@ -90,27 +85,49 @@ footer {
     justify-content: space-between;
 
 }
+.scroll>header>div {
+    display: flex;
+    position: fixed;
+    width: 80%;
+    background-color: #fff;
+    z-index: 1000;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    left: calc((100% - 1383px) / 2);
+}
+
+.scroll section,
+.scroll footer {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0;
+    left: calc((100% - 1383px) / 2);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
 .ancla::before {
     display: block;
     content: "";
-    
 }
+
 nav {
-    /*  background-color: #afafaf;*/
     width: 50%;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    /*  font-family: "Inter", sans-serif;*/
-
 }
-nav a, nav a:link {
+
+nav a,
+nav a:link {
     padding: 10px 5px;
     border: 2px solid transparent;
 }
+
 nav a:hover {
     border: 2px solid #000;
     background-color: #fff;
-    
 }
 
 ul {
@@ -141,7 +158,6 @@ ul ul {
     display: none;
     position: absolute;
     padding-left: 0;
-    /*left: -1rem;*/
 }
 
 ul li:hover ul {
@@ -181,26 +197,77 @@ footer {
     font-size: 40px;
 }
 
-/*.socials .fa-instagram, .socials .fa-square-behance {
-    font-size: 2rem;
-}
-.socials .fa-square-linkedin {
-    font-size: 2em;
-}*/
+
 
 .imagenes {
-display: flex;
-margin: 0 auto;
-flex-wrap: wrap;
-padding: 90px;
-justify-content: center;
-gap: 70px;
-max-width: 1400px;
-width: 80%;
-cursor: pointer;
-transition: 2s;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 90px;
+    justify-content: center;
+    gap: 70px;
+    max-width: 1400px;
+    width: 80%;
+    cursor: pointer;
+    transition: 2s;
 }
+
 .imagenes a:hover {
     transform: scale(1.1);
     transition: 2s;
+}
+
+div#menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    div#menu {
+        display: block;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+
+    header,
+    .menu-container {
+        display: block;
+        position: fixed;
+    }
+
+    header>nav {
+        display: none;
+    }
+
+    div#menu:hover+nav,
+    div#menu:hover+nav:hover,
+    nav:hover>ul,
+    nav:hover {
+        display: block;
+    }
+
+    header>nav>ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+    }
+
+
+    nav ul li ul {
+        z-index: 1;
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    header>nav>ul>li:hover>ul {
+        display: block;
+    }
+
+    footer>nav,
+    nav:hover {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
