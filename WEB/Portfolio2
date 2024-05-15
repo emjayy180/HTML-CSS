@@ -9,35 +9,36 @@
     <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="scroll">
 
     <header>
-        <a href="mj.html" title="Ir a mi página de Inicio">
-            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
-        </a>
-
-        <nav>
-            <ul>
-                <li><a href="mj.html" title="">Inicio</a></li>
-                <li><a href="portfolio.html" title="">Portfolio</a>
-                    <ul>
-                        <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
-                        <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
-                        <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
-                        <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="sobremi.html" title="">Sobre mí</a></li>
-                <li><a href="contacto.html" title="">Contacto</a></li>
-            </ul>
-        </nav>
+        <div>
+            <a href="mj.html" title="Ir a mi página de Inicio">
+                <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="mj.html" title="">Inicio</a></li>
+                    <li><a href="portfolio.html" title="">Portfolio</a>
+                        <ul>
+                            <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
+                            <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
+                            <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
+                            <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                    <li><a href="contacto.html" title="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section>
             <div>
                 <article>
-                    <a href="#" title="Proyecto 1"><img src="img/2.png" alt="Proyecto 1"></a>
+                    <a href="#" title="Proyecto 1"><img src="img/template.svg" alt="Proyecto 1"></a>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem deserunt
                         possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
                         ipsum
