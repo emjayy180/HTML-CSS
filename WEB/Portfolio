@@ -22,10 +22,10 @@
                 <li><a href="mj.html" title="">Inicio</a></li>
                 <li><a href="portfolio.html" title="">Portfolio</a>
                     <ul>
-                        <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
-                        <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
-                        <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
-                        <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
+                        <li><a href="file:///C:/MJ/WEB/portfolio2.html#proyecto1" title=""> Proyecto 1</a></li>
+                        <li><a href="file:///C:/MJ/WEB/portfolio2.html#proyecto2" title=""> Proyecto 2</a></li>
+                        <li><a href="file:///C:/MJ/WEB/portfolio2.html#proyecto3" title=""> Proyecto 3</a></li>
+                        <li><a href="file:///C:/MJ/WEB/portfolio2.html#proyecto4" title=""> Proyecto 4</a></li>
                     </ul>
                 </li>
                 <li><a href="sobremi.html" title="">Sobre mí</a></li>
