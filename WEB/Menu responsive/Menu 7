@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de menú realizado en Flexbox - Diseño 7. Diseño Responsive versión 1</title>
+    <link href="css/menu7.css" rel="stylesheet">
+    <!--si queremos que se muestre el menú hamburguesa con icono, recordad que tenemos que añadir la siguiente líunea de código para que nos muestre los iconos...-->
+    <script src="https://kit.fontawesome.com/0b40d49cde.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/Marta-Liarte_logo-cuadrado.jpg" alt="Logotipo de mi empresa" width="150" height="150">
+        </div>
+        <!--Añadir las 3 siguientes líneas para que en versión móvil nos salga la palabra menú y el icono de menú hamburguesa. Esto va a ser lo que, al hacer poner el ratón sobre esto, o al tocarlo en el móvil, se nos muestre nuestro menú-->
+        <div id="menu">menu
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <!--Hasta aquí lo que tenemos que añadir para que nos salga la palabra menú o el icono de menú hamburguesa-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" title="Ir al apartado de inicio">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#"  title="Mostrar desplegable de opciones menú">
+                        Opciones menú
+                    </a>
+                    <ul>
+                        <li><a href="menu1.html" title="Ver el diseño 1">Diseño 1</a></li>
+                        <li><a href="menu2.html" title="Ver el diseño 2">Diseño 2</a></li>
+                        <li><a href="menu3.html" title="Ver el diseño 3">Diseño 3</a></li>
+                        <li><a href="menu4.html" title="Ver el diseño 4">Diseño 4</a></li>
+                        <li><a href="menu5.html" title="Ver el diseño 5">Diseño 5</a></li>
+                        <li><a href="menu6.html" title="Ver el diseño 6">Diseño 6</a></li>
+                        <li><a href="menu7.html" title="Ver el diseño 6">Diseño 7</a></li>
+                        <li><a href="menu8.html" title="Ver el diseño 6">Diseño 8</a></li>
+                        <li><a href="menu9.html" title="Ver el diseño 6">Diseño 9</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"  title="Ir al apartado de sobre mi">
+                        Sobre mi
+                    </a>
+                </li>
+                <li>
+                    <a href="#"  title="Ir al apartado de contacto">
+                        Contáctame
+                    </a>
+                </li>
+                <li>
+                    <a href="#"  title="Ir al apartado de blog">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>     
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
+
+
+
+/*CSS que organizan la estructura del documento HTML*/
+header {
+    display: block;
+    position: fixed;
+    /*para que cuando haya más contenido y hagamos scroll por la pantalla, la cabecera se nos quede fija en la parte superior de la pantalla*/
+    width: 100%;
+    z-index: 1000;
+    /*Para que la cabecera siempre quede por encima del contenido*/
+}
+
+header>nav>ul {
+    display: flex;
+    flex-direction: row;
+    /*esta propiedad podríamos ignorarla ya que es la que toma el navegador por defecto*/
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+}
+
+header>nav>ul>li {
+    position: relative;
+}
+
+header>nav>ul>li>ul {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header>nav>ul>li:hover>ul {
+    display: block;
+}
+
+header nav ul {
+    list-style-type: none;
+    /*Elimina la decoración de todos los listados*/
+    margin: 0;
+    /*Elimina los márgenes que añade por defecto el navegador a los <ul>*/
+    padding: 0;
+    /*Elimina los paddings que añade por defecto el navegador a los <ul>*/
+}
+
+header li {
+    margin: 0;
+    padding: 0;
+}
+
+header>nav>ul>li>a {
+    padding: 1rem 1.5rem;
+}
+
+/*Hasta aquí CSS que organizan la estructura del documento HTML*/
+/*CSS que aplican diseño a nivel más estético al documento HTML*/
+body {
+    background: #ffffff;
+    color: #222;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.6rem;
+    min-height: 100%;
+}
+
+header {
+    background: #f2f2f2;
+}
+
+nav {
+    background-color: rgba(62, 188, 207, 0.96);
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+}
+
+div#logo img {
+    border-radius: 150px;
+}
+
+header>nav>ul>li:hover {
+    background: rgba(58, 162, 173, 1);
+}
+
+header>nav>ul>li>ul {
+    background-color: rgba(62, 188, 207, 0.96);
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, .05);
+    font-size: 1rem;
+}
+
+header>nav>ul>li>ul>li>a {
+    color: rgba(255, 255, 255, .9);
+    display: block;
+    font-size: .75rem;
+    letter-spacing: 1.5px;
+    padding: .25rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header>nav>ul>li>ul>li:hover>a {
+    background-color: rgba(0, 0, 0, .15);
+}
+
+header>nav>ul>li>a {
+    color: #fff;
+    font-size: 1.55rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+div#menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* En smartphone mostramos el botón */
+    div#menu {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    header nav {
+        display: block;
+        /*ocultamos el contenedor donde está el menú para que este solo se muestre cuando nos coloquemos sobre la palabra "menu"*/
+    }
+
+    /*Gracias a :focus haremos que esto nos funcione bien en móvil. Con el hover nos aseguramos que en tablets o en resoluciones de ordenador pequeñas también nos funcione*/
+    /* div#menu:focus + nav,  */
+    div#menu:hover+nav,
+    div#menu:hover+nav:hover,
+    nav:hover>ul,
+    nav:hover
+        {
+        display: block;
+        /*hacemos que el menú esté visible*/
+    }
+
+    header>nav>ul {
+        /*hacemos que el menú se muestre en columna ya que en el móvil debe estar en columna y no en fila*/
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    nav ul li ul {
+        z-index: 1;
+        width: 50%;
+        margin-left: 50%;
+    }
+}
+
+
+
