@@ -21,10 +21,10 @@
                     <li><a href="mj.html" title="">Inicio</a></li>
                     <li><a href="portfolio.html" title="">Portfolio</a>
                         <ul>
-                            <li><a href="#file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
-                            <li><a href="#file:///C:/MJ/WEB/proyecto2.html#proyecto2" title=""> Proyecto 2</a></li>
-                            <li><a href="#file:///C:/MJ/WEB/proyecto3.html#proyecto3" title=""> Proyecto 3</a></li>
-                            <li><a href="#file:///C:/MJ/WEB/proyecto4.html#proyecto4" title=""> Proyecto 4</a></li>
+                            <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
+                            <li><a href="#proyecto2" title=""> Proyecto 2</a></li>
+                            <li><a href="#proyecto3" title=""> Proyecto 3</a></li>
+                            <li><a href="#proyecto4" title=""> Proyecto 4</a></li>
                         </ul>
                     </li>
                     <li><a href="sobremi.html" title="">Sobre mí</a></li>
@@ -35,6 +35,7 @@
     </header>
 
     <main>
+        <a href="#" class="ancla" id="proyecto1"></a>
         <div class="container">
             <div class="row">
                 <div class="espacio"></div>
@@ -59,7 +60,90 @@
                 <img src="img/2.png" alt="Proyecto 1">
                 <img src="img/2.png" alt="Proyecto 1">
                 <img src="img/2.png" alt="Proyecto 1">
-             
+            </div>
+        </div>
+        <a href="#" class="ancla" id="proyecto2"></a>
+        <div class="container2">
+            <div class="row">
+                <div class="espacio"></div>
+                <div>
+                    <h1>Proyecto 2</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
+                        deserunt
+                        possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
+                        ipsum
+                        fuga mollitia accusantium dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        in
+                        provident debitis, necessitatibus, ullam incidunt similique aperiam totam voluptatum vel
+                        laudantium
+                        cum expedita odio accusantium fugiat ipsum molestias magnam atque!</p>
+                </div>
+                <div class="espacio"></div>
+            </div>
+            <div class="gallery-container">
+                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/2.png" alt="Proyecto 1">
+            </div>
+        </div>
+        <a href="#" class="ancla" id="proyecto3"></a>
+        <div class="container2">
+            <div class="row">
+                <div class="espacio"></div>
+                <div>
+                    <h1>Proyecto 3</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
+                        deserunt
+                        possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
+                        ipsum
+                        fuga mollitia accusantium dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        in
+                        provident debitis, necessitatibus, ullam incidunt similique aperiam totam voluptatum vel
+                        laudantium
+                        cum expedita odio accusantium fugiat ipsum molestias magnam atque!</p>
+                </div>
+                <div class="espacio"></div>
+            </div>
+            <div class="gallery-container">
+                <img src="img/proyectos/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/8.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/4.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/7.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/5.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/6.jpg" alt="Proyecto 1">
+
+            </div>
+        </div>
+        <a href="#" class="ancla" id="proyecto4"></a>
+        <div class="container2">
+            <div class="row">
+                <div class="espacio"></div>
+                <div>
+                    <h1>Proyecto 4</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
+                        deserunt
+                        possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
+                        ipsum
+                        fuga mollitia accusantium dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Dolores
+                        in
+                        provident debitis, necessitatibus, ullam incidunt similique aperiam totam voluptatum vel
+                        laudantium
+                        cum expedita odio accusantium fugiat ipsum molestias magnam atque!</p>
+                </div>
+                <div class="espacio"></div>
+            </div>
+            <div class="gallery-container">
+                <img src="img/proyectos/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/8.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/4.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/7.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/5.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/6.jpg" alt="Proyecto 1">
+
             </div>
         </div>
     </main>
