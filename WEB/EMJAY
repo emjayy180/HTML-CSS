@@ -25,9 +25,9 @@
                     <li><a href="portfolio.html" title="">Portfolio</a>
                         <ul>
                             <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
-                            <li><a href="file:///C:/MJ/WEB/proyecto2.html#proyecto2" title=""> Proyecto 2</a></li>
-                            <li><a href="file:///C:/MJ/WEB/proyecto3.html#proyecto3" title=""> Proyecto 3</a></li>
-                            <li><a href="file:///C:/MJ/WEB/proyecto4.html#proyecto4" title=""> Proyecto 4</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto2" title=""> Proyecto 2</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto3" title=""> Proyecto 3</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto4" title=""> Proyecto 4</a></li>
                         </ul>
                     </li>
                     <li><a href="sobremi.html" title="">Sobre mí</a></li>
@@ -59,7 +59,6 @@
 </body>
 
 </html>
-
 CSS
 
 /*Autora: MJ
@@ -160,6 +159,15 @@ ul li {
 
 }
 
+ul li ul {
+    top: 21px;
+    background-color: #fff;
+}
+
+ul li ul li {
+    width: 100%;
+}
+
 ul ul {
     display: none;
     position: absolute;
@@ -169,6 +177,8 @@ ul ul {
 ul li:hover ul {
     display: block;
     margin-top: 10px;
+    height: auto;
+    position: absolute;
 }
 
 ul ul li a {
@@ -221,35 +231,54 @@ footer {
     transition: 2s;
 }
 
-.container{
-    margin: 0 auto;  
-    padding-top: 91px;
+.container {
+    margin: 0 auto;
+    padding-top: 101px;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.container2 {
+    margin: 0 auto;
+    padding-top: 100px;
     justify-content: center;
     max-width: 1400px;
 
-} 
-.container div {
-text-align: center;
+}
+
+.container div .container2 div {
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
+
 .espacio {
     width: 30%;
 }
+
 .row {
     display: flex;
- background-color: #c0bcbc   
 }
+
 .gallery-container {
     display: flex;
-    margin: 0 auto;
     flex-wrap: wrap;
-    padding: 91px 0;
+    padding: 50px 0;
     justify-content: center;
     gap: 70px;
     max-width: 1400px;
 }
-
-
+.anchomaximo {
+    max-width:1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.anchomaximo p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
+    width: 45%;
+}
 div#menu {
     display: none;
 }
@@ -268,12 +297,13 @@ div#menu {
         position: fixed;
         margin: 0 auto;
     }
- 
+
     .menu-container {
         display: block;
         position: fixed;
         margin: 0 auto;
     }
+
     header>nav {
         display: none;
     }
@@ -282,7 +312,7 @@ div#menu {
     div#menu:hover+nav:hover,
     nav:hover>ul,
     nav:hover,
-    ul:hover  {
+    ul:hover {
         display: block;
     }
 
@@ -299,13 +329,16 @@ div#menu {
         width: 50%;
         margin-left: 104%;
     }
+
     li {
         display: flex;
         flex-direction: column;
     }
+
     li ul li {
         min-width: 100px;
     }
+
     header>nav>ul>li:hover>ul {
         display: block;
     }
@@ -316,4 +349,3 @@ div#menu {
         flex-direction: row;
     }
 
-}
