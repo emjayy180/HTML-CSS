@@ -236,6 +236,7 @@ footer {
     padding-top: 101px;
     justify-content: center;
     max-width: 1400px;
+    margin-left: calc((100% - 1383px) / 2);
 }
 
 .container2 {
@@ -256,6 +257,14 @@ footer {
     width: 30%;
 }
 
+.espacio2 {
+    width: 60%;
+}
+
+.espacio3 {
+    width: 30%;
+}
+
 .row {
     display: flex;
 }
@@ -268,17 +277,36 @@ footer {
     gap: 70px;
     max-width: 1400px;
 }
+
 .anchomaximo {
-    max-width:1400px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    padding: 207.5px 0;
 }
+
 .anchomaximo p {
     display: inline-block;
     vertical-align: top;
     margin: 0 1%;
-    width: 45%;
 }
+
+.anchomaximo img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.anchomaximo>div>h1 {
+    margin-left: 10px;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
 div#menu {
     display: none;
 }
@@ -349,3 +377,4 @@ div#menu {
         flex-direction: row;
     }
 
+}
