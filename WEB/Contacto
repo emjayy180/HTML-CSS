@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMJAY</title>
+    <link href="css/stylemj.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="mj.html" title="Ir a mi página de Inicio">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="mj.html" title="">Inicio</a></li>
+                <li><a href="portfolio.html" title="">Portfolio</a>
+                    <ul>
+                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto2" title=""> Proyecto 2</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto3" title=""> Proyecto 3</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto4" title=""> Proyecto 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                <li><a href="contacto.html" title="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat saepe praesentium ut
+                    laudantium
+                    eius
+                    alias vero ipsa, doloremque est totam distinctio et laborum, reprehenderit inventore dolor mollitia
+                    veritatis? Laudantium.</p>
+            </div>
+            <form action="#" method="post">
+                <fieldset>
+                    <label for="nombre">Nombre<input type="text" id="nombre" placeholder="Nombre y apellidos" autofocus required></label>
+                    <label for="mail">E-mail<input type="text" id="mail" placeholder="Nombre@gmail.com"></label>
+                    <label for="motivo">Motivo<input type="text" id="motivo" placeholder=""></label>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="60" rows="10"></textarea>
+                </fieldset>
+                <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion" value="aceptacion">Acepto la <a href="#" title="">política de privacidad</a></label>
+                <input type="reset" value="Eliminar datos">
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="socials">
+            <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="behance"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a>
+                </li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
