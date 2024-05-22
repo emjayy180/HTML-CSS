@@ -33,7 +33,7 @@
         </nav>
     </header>
     <main>
-        <section class="anchomaximo">
+        <section class="medida">
            <div class="espacio4"></div>
             <div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat saepe praesentium ut
@@ -45,6 +45,7 @@
                     asperiores nulla, excepturi, dolore, obcaecati expedita!</p>
             </div>
             <div class="espacio3"></div>
+            <div class="form">
             <form action="#" method="post" id="contact-us">
 
                 <label for="nombre">Nombre y apellidos<input type="text" id="nombre" placeholder="" class="form"
@@ -56,9 +57,11 @@
 
                 <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
                         value="aceptacion">Acepto la <a href="#" title="">política de privacidad</a></label>
-                <input type="reset" value="Eliminar datos" class="form-btn semibold">
+                        <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
+                            value="aceptacion">Acepto recibir información acerca de productos y servicios relacionados con los solicitados y ser fidelizado como cliente.</a></label>
                 <input type="submit" class="form-btn semibold">
             </form>
+            </div>
             <div class="espacio4"></div>
         </section>
     </main>
@@ -81,7 +84,6 @@
 </body>
 
 </html>
-
 CSS
 
 /*Autora: MJ
@@ -276,7 +278,8 @@ footer {
 
 }
 
-.espacio, .espacio3 {
+.espacio,
+.espacio3 {
     width: 30%;
 }
 
@@ -325,70 +328,88 @@ footer {
 .anchomaximo>div>h1 {
     margin-left: 10px;
 }
+
 label {
     display: block;
     margin: 0.5rem 0;
 }
 
-.form{
+div .form {
     width: 100%;
     padding: 10px;
-    background:#f8f8f8;
-    border:3px solid rgba(0, 0, 0, 0.185);
-    margin-bottom:10px;
-    color:#4b4b4b !important;
-    font-size:16px;
+    background: #f8f8f8;
+    border: 3px solid rgba(0, 0, 0, 0.185);
+    margin-bottom: 10px;
+    color: #4b4b4b !important;
+    font-size: 16px;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
-  }
+    box-sizing: border-box;
+}
 
-  .form:hover{
-    border:3px solid #000000;
-  }
+div .form:hover {
+    border: 3px solid #000000;
+}
 
-  .form:focus{
+div .form:focus {
     color: white;
     outline: none;
-    border:3px solid #000000;
-  }
+    border: 3px solid #000000;
+}
 
-  .textarea{
+.form {
+    width: 130%;
+}
+
+.textarea {
     height: 200px;
     max-height: 200px;
     max-width: 100%;
-  }
-  .form-btn{
-    width:180px;
+}
+
+div .form-btn {
+    width: 180px;
     display: block;
     height: auto;
-    padding:15px;
-    color:#fff;
-    background:#4b4b4b;
-    border:none;
-    border-radius:3px;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border: none;
     outline: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    margin:auto;
-    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
-  }
+    /*margin:auto;*/
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
 
-  .form-btn:hover{
-    background:#111;
+div .form-btn:hover {
+    background: #4b4b4b;
     color: white;
-    border:none;
-  }
+    border: none;
+}
 
-  .form-btn:active{
+div .form-btn:active {
     opacity: 0.9;
-  }
-  .contacto {
+}
+
+.contacto {
     display: flex;
-  }
+}
+
+section>div>p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10%;
+}
+
+section.medida {
+    padding: 52.5px 0;
+}
+
 div#menu {
     display: none;
 }
