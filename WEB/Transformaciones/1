@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeras transformaciones</title>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Desenfoque</h1>
+    <img src="img/img-playa.jpg" alt="" class="imagen">
+    <h1>Escala de grises</h1>
+    <img src="img/img-playa.jpg" alt="" class="imagen2">
+    <h1>Sepia</h1>
+    <img src="img/img-playa.jpg" alt="" class="imagen3">
+    <h1>Zoom</h1>
+    <div class="contenedor">
+    <img src="img/img-playa.jpg" alt="" class="imagen4">
+    </div>
+    <h1>Giro</h1>
+    <img src="img/img-cuadrada.jpg" alt="" class="imagen5">
+    <h1>Efecto espejo</h1>
+    <img src="img/img-cuadrada.jpg" alt="" class="imagen6">
+</body>
+</html>
+
+CSS
+
+.imagen {
+    transition: all 0.75s ease;
+    /*transicion*/
+}
+
+.imagen:hover {
+    filter: blur(0.5rem);
+    /*efecto desenfoque*/
+    transition: all 2s ease;
+}
+
+.imagen2 {
+    transition: all 0.75s ease;
+    filter: grayscale(100%);
+}
+
+.imagen2:hover {
+    filter: grayscale(0);
+    transition: all 2s ease;
+}
+
+.imagen3 {
+    transition: all 0.75s ease;
+    filter: sepia(1);
+}
+
+.imagen3:hover {
+    filter: sepia(0);
+    transition: all 2s ease;
+}
+
+.contenedor {
+    overflow: hidden;
+    width: 1022px;
+    height: 427px;
+    margin: 0 auto;
+}
+
+.imagen4 {
+    transition: all 0.5s ease;
+}
+
+.imagen4:hover {
+    transform: scale(1.1)
+}
+
+.imagen5 {
+    border-radius: 25%;
+    transition:
+        /*border-radius 1s ease, transform 2s ease;
+    box-shadow: 5s ease; box-shadow 5s ease. Todo esto tambien valdria para el mismo efecto solo que se tendria que poner cada valor del respectivo efecto*/
+        all 2s ease;
+    /* el all se lo aplica a todo, podrias poner solo border radius...etc*/
+}
+
+.imagen5:hover {
+    border-radius: 100%;
+    transform: rotate(360deg);
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    /*transition: all 1s ease*/
+}
+
+.imagen6 {
+    transition: all .75s ease;
+}
+
+.imagen6:hover {
+    transform: rotateY(180deg);
+    /* transition: all .25s ease; */
+}
