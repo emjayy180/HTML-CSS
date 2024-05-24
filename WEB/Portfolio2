@@ -13,12 +13,15 @@
 
     <header>
         <div>
-            <a href="mj.html" title="Ir a mi página de Inicio">
+            <a href="index.html" title="Ir a mi página de Inicio">
                 <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
             </a>
+            <div id="menu">Menú
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="mj.html" title="">Inicio</a></li>
+                    <li><a href="index.html" title="">Inicio</a></li>
                     <li><a href="portfolio.html" title="">Portfolio</a>
                         <ul>
                             <li><a href="#proyecto1" title=""> Proyecto 1</a></li>
@@ -54,12 +57,19 @@
                 <div class="espacio"></div>
             </div>
             <div class="gallery-container">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/1.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/3.png" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/13.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/14.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/5.jpg" alt="Proyecto 1">
+
+                <img src="img/proyectos/kiribil/333x333/9.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/8.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/12.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/13.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/14.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/5.jpg" alt="Proyecto 1">
             </div>
         </div>
         <a href="#" class="ancla" id="proyecto2"></a>
@@ -108,12 +118,13 @@
                 <div class="espacio"></div>
             </div>
             <div class="gallery-container">
-                <img src="img/proyectos/2.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/8.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/4.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/7.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/5.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/6.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/4.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/1.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/6.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/3.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/7.jpg" alt="Proyecto 1">
+
 
             </div>
         </div>
