@@ -12,13 +12,15 @@
 <body>
 
     <header>
-        <a href="mj.html" title="Ir a mi página de Inicio">
+        <a href="index.html" title="Ir a mi página de Inicio">
             <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
         </a>
-
+        <div id="menu">Menú
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <nav>
             <ul>
-                <li><a href="mj.html" title="">Inicio</a></li>
+                <li><a href="index.html" title="">Inicio</a></li>
                 <li><a href="portfolio.html" title="">Portfolio</a>
                     <ul>
                         <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
