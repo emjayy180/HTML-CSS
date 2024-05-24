@@ -13,15 +13,15 @@
 
     <header>
  
-        <a href="mj.html" title="Ir a mi página de Inicio">
-            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+        <a href="index.html" title="Ir a mi página de Inicio">
+            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;" >
         </a>
         <div id="menu">Menú
             <i class="fa-solid fa-bars"></i>
         </div>
             <nav>
                 <ul>
-                    <li><a href="mj.html" title="">Inicio</a></li>
+                    <li><a href="index.html" title="">Inicio</a></li>
                     <li><a href="portfolio.html" title="">Portfolio</a>
                         <ul>
                             <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
@@ -253,7 +253,8 @@ footer {
 
 }
 
-.espacio {
+.espacio,
+.espacio3 {
     width: 30%;
 }
 
@@ -261,8 +262,8 @@ footer {
     width: 60%;
 }
 
-.espacio3 {
-    width: 30%;
+.espacio4 {
+    width: 50%;
 }
 
 .row {
@@ -302,9 +303,85 @@ footer {
 .anchomaximo>div>h1 {
     margin-left: 10px;
 }
+
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+div .form {
+    width: 100%;
+    padding: 10px;
+    background: #f8f8f8;
+    border: 3px solid rgba(0, 0, 0, 0.185);
+    margin-bottom: 10px;
+    color: #4b4b4b !important;
+    font-size: 16px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+
+div .form:hover {
+    border: 3px solid #000000;
+}
+
+div .form:focus {
+    color: white;
+    outline: none;
+    border: 3px solid #000000;
+}
+
+.form {
+    width: 130%;
+}
+
+.textarea {
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+div .form-btn {
+    width: 180px;
+    display: block;
+    height: auto;
+    padding: 15px;
+    color: #fff;
+    background: #000;
+    border: none;
+    outline: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+}
+
+div .form-btn:hover {
+    background: #4b4b4b;
+    color: white;
+    border: none;
+}
+
+div .form-btn:active {
+    opacity: 0.9;
+}
+
+.contacto {
+    display: flex;
+}
+
+section>div>p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10%;
+}
+
+section.medida {
+    padding: 52.5px 0;
 }
 
 div#menu {
@@ -312,11 +389,18 @@ div#menu {
 }
 
 @media screen and (max-width: 980px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
     div#menu {
         display: block;
         cursor: pointer;
         font-family: "Montserrat", sans-serif;
         font-weight: 500;
+        margin-left: 4px;
     }
 
     header,
@@ -324,6 +408,9 @@ div#menu {
         display: block;
         position: fixed;
         margin: 0 auto;
+        margin-left: 15px;
+        background-color: #fff;
+        width: 100%;
     }
 
     .menu-container {
@@ -342,20 +429,24 @@ div#menu {
     nav:hover,
     ul:hover {
         display: block;
+
     }
 
     header>nav>ul {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: flex-end;
         align-items: flex-start;
         height: auto;
+        padding-left: 0;
+        margin-left: 50px;
     }
 
+    ul {
+        background-color: #fff;
+    }
 
     nav ul li ul {
-        z-index: 1;
-        width: 50%;
-        margin-left: 104%;
+        visibility: hidden;
     }
 
     li {
@@ -363,12 +454,33 @@ div#menu {
         flex-direction: column;
     }
 
-    li ul li {
-        min-width: 100px;
-    }
-
     header>nav>ul>li:hover>ul {
         display: block;
+    }
+
+    section.imagenfondo img {
+        width: 100%;
+        height: auto !important;
+        padding: 100px 0;
+    }
+
+    main {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .imagenes {
+        padding-top: 300%;
+    }
+
+    footer {
+        padding-bottom: 40px;
+    }
+
+    footer ul {
+        flex-direction: column;
     }
 
     footer>nav,
@@ -376,5 +488,6 @@ div#menu {
         display: flex;
         flex-direction: row;
     }
+
 
 }
