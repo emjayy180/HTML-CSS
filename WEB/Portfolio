@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EMJAY</title>
+    <title>MJ</title>
     <link href="css/stylemj.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
 </head>
@@ -24,10 +24,10 @@
                 <li><a href="index.html" title="">Inicio</a></li>
                 <li><a href="portfolio.html" title="">Portfolio</a>
                     <ul>
-                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto1" title=""> Proyecto 1</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto2" title=""> Proyecto 2</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto3" title=""> Proyecto 3</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto1.html#proyecto4" title=""> Proyecto 4</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
                     </ul>
                 </li>
                 <li><a href="sobremi.html" title="">Sobre mí</a></li>
@@ -39,11 +39,11 @@
 
     <main>
         <div class="imagenes">
-            <a href="proyecto1.html#proyecto1" class="ancla" id="proyecto1"><img src="img/2.png" alt="Proyecto 1"></a>
-            <a href="proyecto1.html#proyecto2" class="ancla" id="proyecto2"><img src="img/1.png" alt="Proyecto 2"></a>
-            <a href="proyecto1.html#proyecto3" class="ancla" id="proyecto3"><img src="img/2.png" alt="Proyecto 3"></a>
+            <a href="file:///C:/MJ/WEB/proyecto1.html" class="ancla" id="proyecto1"><img src="img/2.png" alt="Proyecto 1"></a>
+            <a href="file:///C:/MJ/WEB/proyecto2.html" class="ancla" id="proyecto2"><img src="img/1.png" alt="Proyecto 2"></a>
+            <a href="file:///C:/MJ/WEB/proyecto3.html" class="ancla" id="proyecto3"><img src="img/2.png" alt="Proyecto 3"></a>
 
-            <a href="proyecto1.html#proyecto4" class="ancla" id="proyecto4"><img src="img/1.png" alt="Proyecto 4"></a>
+            <a href="file:///C:/MJ/WEB/proyecto4.html" class="ancla" id="proyecto4"><img src="img/1.png" alt="Proyecto 4"></a>
             <a href="proyecto1.html#proyecto5" class="ancla" id="proyecto5"><img src="img/2.png" alt="Proyecto 5"></a>
             <a href="proyecto1.html#proyecto6" class="ancla" id="proyecto6"><img src="img/1.png" alt="Proyecto 6"></a>
         </div>
