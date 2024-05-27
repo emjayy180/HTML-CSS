@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MJ</title>
+    <link href="css/stylemj.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="scroll">
+
+    <header>
+        <div>
+            <a href="index.html" title="Ir a mi página de Inicio">
+                <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+            </a>
+            <div id="menu">Menú
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="">Inicio</a></li>
+                    <li><a href="portfolio.html" title="">Portfolio</a>
+                        <ul>
+                            <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                    <li><a href="contacto.html" title="">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container2">
+            <div class="row">
+                <div class="espacio"></div>
+                <div>
+                    <h1>Proyecto 3</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
+                        deserunt
+                        possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
+                        ipsum
+                        fuga mollitia accusantium dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+                        in
+                        provident debitis, necessitatibus, ullam incidunt similique aperiam totam voluptatum vel
+                        laudantium
+                        cum expedita odio accusantium fugiat ipsum molestias magnam atque!</p>
+                </div>
+                <div class="espacio"></div>
+            </div>
+            <div class="gallery-container">
+                <img src="img/proyectos/tarjetas/4.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/1.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/6.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/3.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/tarjetas/7.jpg" alt="Proyecto 1">
+
+
+            </div>
+        </div>
+
+    <footer>
+        <div class="socials">
+            <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#" title="behance"><i class="fa-brands fa-square-behance"></i></a>
+            <a href="#" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="privacidad.html" title="Ir a ver la política de privacidad"> Política de privacidad</a>
+                </li>
+                <li><a href="cookies.html" title="Ir a ver la política de Cookies">Política de Cookies</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
