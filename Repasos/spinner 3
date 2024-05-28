@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de spinner circular - Movimiento continuo de ondas</title>
+    <link href="./css/spinner_03style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="ondas">
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>
+
+CSS
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*generamos la regla CSS para el contenedor en el que se nos van a 'pintar' las ondas*/
+.ondas {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+/*Definimos las ondas*/
+.ondas div {
+  position: absolute;
+  border: 4px solid #000;
+  /*este border va a ser lo que veamos y a lo que le damos animación*/
+  opacity: 1;
+  border-radius: 50%;
+  /*Para hacer que ese 'borde' definido un poco más arriba se vea circular*/
+  animation: ondas 1s linear infinite;
+  /*Definimos la animación: (nombre de la animación) (duración) (estilo de la función) (duración de la función)*/
+}
+
+.ondas div:nth-child(2) {
+  animation-delay: -0.5s;
+  /*tiempo de retardo con el que comenzará la animación del segundo hijo*/
+}
+
+@keyframes ondas {
+
+  /*Comenzamos la animación. Nuestro elemento no tiene anchura, no tiene altura y además es transparente*/
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+  }
+
+  /*Seguimos con la animación. Nuestro elemento no tiene anchura, no tiene altura y pero ahora ya no es transparente*/
+  5% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+  }
+
+  /*Terminamos la animación. Nuestro elemento tiene el 100% de anchura, tiene el 100% de altura y se vuelve transparente*/
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+}
