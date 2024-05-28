@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/spinner_04style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cuadrado"></div>
+</body>
+</html>
+
+CSS
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/*A continuación definimos el cuadrado que vamos a animar*/
+.cuadrado {
+  width: 40px;
+  /*Anchura del cuadrado*/
+  height: 40px;
+  /*Altura del cuadrado*/
+  background-color: #333;
+  /*Color de fondo del cuadrado*/
+  margin: 100px auto;
+  animation: cuadrado 5s ease-in-out infinite;
+  /*Definimos la animación: (nombre de la animación) (duración) (estilo de la función) (duración de la función) */
+}
+
+@keyframes cuadrado {
+
+  /*Punto inicial de la animación*/
+  0% {
+    transform: perspective(150px) rotateX(0deg) rotateY(0deg);
+    background-color: #333;
+    scale: 1;
+  }
+
+  /*Punto intermedio de la animación*/
+  50% {
+    transform: perspective(150px) rotateX(-180deg) rotateY(0deg);
+    background-color: #ffe600;
+    scale: 2;
+  }
+
+  /*Punto final de la animación*/
+  100% {
+    transform: perspective(150px) rotateX(-180deg) rotateY(-180deg);
+    background-color: #333;
+    scale: 1;
+  }
+}
