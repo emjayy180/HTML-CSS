@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de spinner circular - Movimiento continuo de una sola línea </title>
+    <link href="css/spinner_01style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="anillo">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
+
+CSS
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*Definimos el contenedor en el que se va a encontrar el elemento que vamos a animar*/
+.anillo {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+/*Definimos el elemento que vamos a animar*/
+.anillo div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  /*Definimos la anchura del elemento*/
+  height: 64px;
+  /*Definimos la altura del elemento*/
+  margin: 8px;
+  border-width: 8px;
+  border-style: solid;
+  border-radius: 50%;
+  /*Definimos el radio del elemento para hacer que este se muestre como un círculo*/
+  border-color: #000000 transparent transparent transparent;
+  /*Definimos el color del borde del elemento. Tiene el borde de arriba en color negro y el resto de bordes son transparentes.*/
+  animation: anillo 1.2s linear infinite;
+  /*Definimos la animación: (nombre de la animación) (duración) (estilo de la función) (duración de la función)*/
+
+}
+
+.anillo div:nth-child(1) {
+  animation-delay: -0.45s;
+  /*tiempo de retardo con el que comenzará la animación del primer hijo*/
+}
+
+.anillo div:nth-child(2) {
+  animation-delay: -0.3s;
+  /*tiempo de retardo con el que comenzará la animación del segundo hijo*/
+}
+
+.anillo div:nth-child(3) {
+  animation-delay: -0.15s;
+  /*tiempo de retardo con el que comenzará la animación del tercer hijo*/
+}
+
+@keyframes anillo {
+
+  /*Punto de inicio de la animación*/
+  0% {
+   
+   transform: rotate(0deg);
+   
+     }
+
+  /*Punto final de la animación: Le hemos hecho realizar un giro de 360 grados a nuestro elemento*/
+  100% {
+   
+    transform: rotate(360deg);
+    
+  }
+}
