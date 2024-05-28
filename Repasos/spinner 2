@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de spinner circular - Movimiento continuo de dos líneas</title>
+    <link href="./css/spinner_02style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="doble-anillo"></div>
+</body>
+
+</html>
+
+CSS
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/*Definimos el contenedor en el que se va a encontrar el elemento que vamos a animar*/
+.doble-anillo {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+/*Definimos el pseudo-elemento que vamos a animar*/
+.doble-anillo:after {
+  content: " ";
+  display: block;
+  width: 64px;/*Definimos la anchura del pseudo-elemento*/
+  height: 64px;/*Definimos la altura del pseudo-elemento*/
+  margin: 8px;
+  border-radius: 50%;/*Definimos el radio del pseudo-elemento para hacer que este se muestre como un círculo*/
+  border: 6px solid #000;
+  border-color: #000 transparent #000 transparent;/*Definimos el color del borde del pseudo-elemento. Tiene los bordes de arriba y abajo en color negro y los bordes de los lados son transparentes.*/
+  animation: doble-anillo 1.2s linear infinite;/*Definimos la animación: (nombre de la animación) (duración) (estilo de la función) (duración de la función)*/ 
+}
+@keyframes doble-anillo {
+  /*Punto de inicio de la animación*/
+  0% {
+    transform: rotate(0deg);
+
+      }
+  /*Punto final de la animación: Le hemos hecho realizar un giro de 360 grados a nuestro elemento*/
+  100% {
+    transform: rotate(360deg);
+  }
+}
