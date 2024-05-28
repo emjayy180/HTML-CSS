@@ -12,6 +12,7 @@
 <body>
 
     <header>
+        <div>
         <a href="index.html" title="Ir a mi página de Inicio">
             <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
         </a>
@@ -33,36 +34,34 @@
                 <li><a href="contacto.html" title="">Contacto</a></li>
             </ul>
         </nav>
+       </div> 
     </header>
     <main>
-<section>
-        <div class="anchomaximo">
-            <div class="espacio2"></div>
-            <div>
-                <h1>¡Hola!</h1>
+        <section>
+            <div class="anchomaximo">
+                <div class="espacio2"></div>
+                <div>
+                    <h1>¡Hola!</h1>
 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eius eaque soluta sit cum, labore
-                    inventore
-                    nisi pariatur mollitia error cumque a sequi incidunt, corporis iure iste in! Nisi, a. Lorem ipsum
-                    dolor
-                    sit
-                    amet consectetur, adipisicing elit. Soluta incidunt sit ipsum iusto quaerat. Maiores sunt quos
-                    adipisci
-                    nostrum nesciunt temporibus amet illo, vel odit dolor, ut corporis? Reiciendis, voluptates.
-                </p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eius eaque soluta sit cum, labore
+                        inventore
+                        nisi pariatur mollitia error cumque a sequi incidunt, corporis iure iste in! Nisi, a. Lorem
+                        ipsum
+                        dolor
+                        sit
+                        amet consectetur, adipisicing elit. Soluta incidunt sit ipsum iusto quaerat. Maiores sunt quos
+                        adipisci
+                        nostrum nesciunt temporibus amet illo, vel odit dolor, ut corporis? Reiciendis, voluptates.
+                    </p>
+                </div>
+                <div class="espacio3"></div>
+                <div>
+                    <img src="img/perfil hollie.png" alt="Foto de perfil">
+                </div>
+                <div class="espacio2"></div>
             </div>
-            <div class="espacio3"></div>
-            <div>
-                <img src="img/perfil hollie.png" alt="Foto de perfil">
-            </div>
-            <div class="espacio2"></div>
-        </div>
-</section>
+        </section>
     </main>
-
-
-
-
     <footer>
         <div class="socials">
             <a href="#" title="instagram"><i class="fa-brands fa-square-instagram"></i></a>
