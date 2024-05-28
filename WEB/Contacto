@@ -12,31 +12,33 @@
 <body>
 
     <header>
-        <a href="index.html" title="Ir a mi página de Inicio">
-            <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
-        </a>
-        <div id="menu">Menú
-            <i class="fa-solid fa-bars"></i>
+        <div>
+            <a href="index.html" title="Ir a mi página de Inicio">
+                <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
+            </a>
+            <div id="menu">Menú
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="">Inicio</a></li>
+                    <li><a href="portfolio.html" title="">Portfolio</a>
+                        <ul>
+                            <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobremi.html" title="">Sobre mí</a></li>
+                    <li><a href="contacto.html" title="">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html" title="">Inicio</a></li>
-                <li><a href="portfolio.html" title="">Portfolio</a>
-                    <ul>
-                        <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
-                    </ul>
-                </li>
-                <li><a href="sobremi.html" title="">Sobre mí</a></li>
-                <li><a href="contacto.html" title="">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
     <main>
         <section class="medida">
-           <div class="espacio4"></div>
+            <div class="espacio4"></div>
             <div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat saepe praesentium ut
                     laudantium
@@ -48,21 +50,22 @@
             </div>
             <div class="espacio3"></div>
             <div class="form">
-            <form action="#" method="post" id="contact-us">
+                <form action="#" method="post" id="contact-us">
 
-                <label for="nombre">Nombre y apellidos<input type="text" id="nombre" placeholder="" class="form"
-                        autofocus required></label>
-                <label for="mail">E-mail<input type="text" id="mail" class="form" placeholder=""></label>
-                <label for="motivo">Motivo<input type="text" id="motivo" class="form" placeholder=""></label>
-                <label for="mensaje">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" class="form" cols="60" rows="10"></textarea>
+                    <label for="nombre">Nombre y apellidos<input type="text" id="nombre" placeholder="" class="form"
+                            autofocus required></label>
+                    <label for="mail">E-mail<input type="text" id="mail" class="form" placeholder=""></label>
+                    <label for="motivo">Motivo<input type="text" id="motivo" class="form" placeholder=""></label>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" class="form" cols="60" rows="10"></textarea>
 
-                <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
-                        value="aceptacion">Acepto la <a href="#" title="">política de privacidad</a></label>
-                        <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
-                            value="aceptacion">Acepto recibir información acerca de productos y servicios relacionados con los solicitados y ser fidelizado como cliente.</a></label>
-                <input type="submit" class="form-btn semibold">
-            </form>
+                    <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
+                            value="aceptacion">Acepto la <a href="#" title="">política de privacidad</a></label>
+                    <label for="aceptacion"><input type="checkbox" id="aceptacion" name="aceptacion"
+                            value="aceptacion">Acepto recibir información acerca de productos y servicios relacionados
+                        con los solicitados y ser fidelizado como cliente.</a></label>
+                    <input type="submit" class="form-btn semibold">
+                </form>
             </div>
             <div class="espacio4"></div>
         </section>
