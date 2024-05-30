@@ -38,11 +38,11 @@
     </header>
 
     <main>
-        <div class="container2">
+        <div class="container">
             <div class="row">
                 <div class="espacio"></div>
                 <div>
-                    <h1>HAPPY COWS</h1>
+                    <h1>KIRIBIL</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
                         deserunt
                         possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
@@ -56,15 +56,21 @@
                 <div class="espacio"></div>
             </div>
             <div class="gallery-container">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
-                <img src="img/2.png" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k1.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k3.png" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k13.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k14.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k5.jpg" alt="Proyecto 1">
+
+                <img src="img/proyectos/kiribil/333x333/k9.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k8.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k12.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k13.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k14.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/kiribil/333x333/k5.jpg" alt="Proyecto 1">
             </div>
         </div>
-       
     </main>
 
     <footer>
