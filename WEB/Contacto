@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <div>
+     
             <a href="index.html" title="Ir a mi página de Inicio">
                 <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
             </a>
@@ -34,7 +34,7 @@
                     <li><a href="contacto.html" title="">Contacto</a></li>
                 </ul>
             </nav>
-        </div>
+       
     </header>
     <main>
         <section class="medida">
