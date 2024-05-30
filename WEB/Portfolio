@@ -68,3 +68,29 @@
 </body>
 
 </html>
+
+
+/*Estilos modal*/
+div#myModal {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    z-index: 9999999;
+    text-align: center;
+    padding: 5rem;
+    display: none;
+}
+div#myModal img {
+    height: calc(100vh - 15rem);
+    width: auto;
+}
+span.close {
+    position: absolute;
+    top: 2rem;
+    color: #ffffff;
+    font-size: 2rem;
+    right: 5rem;
+}
