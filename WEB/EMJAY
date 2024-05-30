@@ -12,13 +12,14 @@
 <body>
 
     <header>
-        <div>
+      
             <a href="index.html" title="Ir a mi página de Inicio">
                 <img src="img/photoshop.png" alt="Logo MJ" style="height: 80px;">
             </a>
             <div id="menu">Menú
                 <i class="fa-solid fa-bars"></i>
             </div>
+
             <nav>
                 <ul>
                     <li><a href="index.html" title="">Inicio</a></li>
@@ -34,7 +35,7 @@
                     <li><a href="contacto.html" title="">Contacto</a></li>
                 </ul>
             </nav>
-        </div>
+       
     </header>
     <main>
         <section class="imagenfondo">
@@ -59,6 +60,7 @@
 </body>
 
 </html>
+
 CSS
 
 /*Autora: MJ
@@ -424,7 +426,7 @@ div#menu {
         max-width: 1400px;
         margin: 0 auto;
         justify-content: space-between;
-        left: 15px;
+        left: 0px;
         flex-direction: column;
     }
 
