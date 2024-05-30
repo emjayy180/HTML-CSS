@@ -1,0 +1,36 @@
+https://www.meetup.com/es-ES/wordpress-bilbao/
+
+Validador html: https://validator.w3.org/#validate_by_input
+
+Codificación idiomas: https://es.wikipedia.org/wiki/ISO_639-1
+
+
+DESCARGAR VISUAL CODE: https://code.visualstudio.com/docs/?dv=win64user
+
+WEBS INTERESANTES COMO INSPIRACIÓN PARA DISEÑO:
+
+https://www.siteinspire.com/
+https://www.awwwards.com/
+https://refero.design/
+https://minimal.gallery/
+
+
+PLATAFORMA NO-CODE: https://webflow.io/
+
+HERRAMIENTA PARA HACER PROTOTIPOS:
+figma - https://www.figma.com/
+
+HERRAMIENTA PARA PLASMAR IDEAS, CREAR TABLEROS DE NAVEGACIÓN, ETC:
+https://miro.com/es/login/
+
+
+HERRAMIENTA PARA CHEQUEAR CONTRASTE DE COLOR:
+
+https://www.siegemedia.com/contrast-ratio
+
+Juego javascript: https://warrior.js.org/es-ES/
+
+PARA BUSCAR LA ESCALA QUE NOS GUSTE DE TAMAÑOS DE H1, H2, H3, H4, H5, H6 P
+https://typescale.com/
+
+https://accessibilityinsights.io/
