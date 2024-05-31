@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios transformaciones - Menú 7</title>
+    <link href="./css/menu_07.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <nav id="navegador">
+      <ul>
+        <li><a class="link" href="#">Inicio</a></li>
+        <li><a class="link" href="#">Sobre</a></li>
+        <li><a class="link" href="#">Contacto</a></li>
+        <li><a class="link" href="#">Blog</a></li>
+      </ul>
+    </nav> 
+      <div class="container2">
+  <div class="circulo"></div>
+  </div>
+  </div>
+
+</body>
+</html>
+
+CSS
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #4776e6;
+  background-color: #8e54e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container2 {
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.circulo {
+  height: 130%;
+  width: 30%;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.circulo:hover {
+  animation: anim3 800ms ease infinite;
+}
+
+#navegador {
+  width: 100%;
+  height: 60px;
+  background: #4776e6;
+  box-shadow: 0 0 10px 1px;
+  margin-bottom: 40px;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 100px;
+}
+
+ul li {
+  display: block;
+  height: 100%;
+  margin-right: 30px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 0 15px #8e54e9;
+  transition: all 300ms linear;
+}
+
+/* Style 2: Just transform 10px up and 10px down */
+ul li a:hover {
+  animation: anim2 500ms ease infinite;
+}
+
+
+@keyframes anim2 {
+  0% {
+    opacity: 1;
+    transform: translateY(px);
+   
+  }
+
+  25% {
+    opacity: 0;
+    transform: translateY(-10px);
+ 
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(px);
+   
+  }
+
+  75% {
+    opacity: 0;
+    transform: translateY(10px);
+    
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(px);
+    
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    background-color: green;
+    transform: scale(1);
+  }
+
+  50% {
+    background-color: blue;
+    transform: scale(2);
+  }
+
+  100% {
+    background-color: green;
+    transform: scale(1);
+  }
+}
