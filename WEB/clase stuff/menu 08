@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios transformaciones - Menú 7</title>
+    <link href="./css/menu_08.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container2">
+        <div class="circulo"></div>
+    </div>
+
+</body>
+
+</html>
+
+CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container2 {
+    height: 300px;
+    width: 70%;
+    margin: 300px;
+    text-align: center;
+}
+
+.circulo {
+    height: 130%;
+    width: 30%;
+    border-radius: 0%;
+    background-color: green;
+}
+
+.circulo:hover {
+    animation: trans 10s ease infinite;
+}
+
+/* Style 2: Just transform 10px up and 10px down */
+
+
+@keyframes trans {
+    0% {
+        background-color: green;
+        transform: translate(0) scale(1);
+        border-radius: 0%;
+
+    }
+
+    50% {
+        background-color: blue;
+        transform: translateX(calc(100vw - 300px)) scale(1.5);
+        border-radius: 100%;
+    }
+
+    100% {
+        background-color: green;
+        transform: translate(0) scale(1);
+        border-radius: 0%;
+    }
+
+}
