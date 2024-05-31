@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MJ</title>
+    <title>Maria Jose A.</title>
     <link href="css/stylemj.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
 </head>
@@ -26,8 +26,8 @@
                     <ul>
                         <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
                         <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
-                        <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Tarjetas</a></li>
+                        <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Ilustración</a></li>
                     </ul>
                 </li>
                 <li><a href="sobremi.html" title="">Sobre mí</a></li>
