@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios transformaciones - Menú 4</title>
+    <link href="./css/menu_04.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <nav id="navegador">
+      <ul>
+        <li><a class="link" href="#">Inicio</a></li>
+        <li><a class="link" href="#">Sobre</a></li>
+        <li><a class="link" href="#">Contacto</a></li>
+        <li><a class="link" href="#">Blog</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</body>
+
+</html>
+
+CSS
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #4776e6;
+  background-color: #8e54e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#navegador {
+  width: 100%;
+  height: 60px;
+  background: #4776e6;
+  box-shadow: 0 0 10px 1px;
+  margin-bottom: 40px;
+}
+
+ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 100px;
+}
+
+ul li {
+  display: block;
+  height: 100%;
+  margin-right: 30px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 0 0 15px #8e54e9;
+  transition: all 300ms linear;
+}
+
+/*Estilo: Añadimos un pseudoelemento a los enlaces. Es decir, cuando pasamos sobre un enlace del menú, se muestra una línea que ocupa el 100% del ancho de ese item de menú, solo por debajo del enlace */
+
+ul li a::after {
+content: '';
+position: absolute;
+width: 0%;
+height: 1px;
+transition: all 0.3s linear;
+bottom: 25%;
+left: 0;
+background-color: #fff;
+}
+
+ul li a:hover::after {
+width: 100%;
+}
