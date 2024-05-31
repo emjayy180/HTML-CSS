@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MJ</title>
+    <title>Maria Jose A.</title>
     <link href="css/stylemj.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/c906ddc44d.js" crossorigin="anonymous"></script>
 </head>
@@ -26,8 +26,8 @@
                         <ul>
                             <li><a href="file:///C:/MJ/WEB/proyecto1.html" title=""> Kiribil</a></li>
                             <li><a href="file:///C:/MJ/WEB/proyecto2.html" title=""> Happy Cows</a></li>
-                            <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Proyecto 3</a></li>
-                            <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Proyecto 4</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto3.html" title=""> Tarjetas</a></li>
+                            <li><a href="file:///C:/MJ/WEB/proyecto4.html" title=""> Ilustración</a></li>
                         </ul>
                     </li>
                     <li><a href="sobremi.html" title="">Sobre mí</a></li>
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="espacio"></div>
                 <div>
-                    <h1>KIRIBIL</h1>
+                    <h1>HAPPY COWS</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero fugiat fuga porro autem
                         deserunt
                         possimus temporibus in, earum, odio deleniti, alias molestias aspernatur dolores! Recusandae
@@ -56,19 +56,13 @@
                 <div class="espacio"></div>
             </div>
             <div class="gallery-container">
-                <img src="img/proyectos/kiribil/333x333/k1.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k2.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k3.png" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k13.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k14.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k5.jpg" alt="Proyecto 1">
-
-                <img src="img/proyectos/kiribil/333x333/k9.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k8.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k12.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k13.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k14.jpg" alt="Proyecto 1">
-                <img src="img/proyectos/kiribil/333x333/k5.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/1 (1).jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/2.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/3.jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/4 (1).jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/5 (1).jpg" alt="Proyecto 1">
+                <img src="img/proyectos/packaging/9.jpg" alt="Proyecto 1">
+              
             </div>
         </div>
     </main>
