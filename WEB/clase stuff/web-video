@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerre Design, te ayudamos a comunicar mejor quién eres, qué haces y cómo</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <div>
+                        <p>1995</p>
+                    </div>
+                    <div class="completo">
+                        <hr>
+                    </div>
+                    <div>
+                        <p>2023</p>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="">
+                <h1>Este es un título</h1>
+                    <video autoplay muted loop width="1488" height="718" id="desktop">
+                        <source src="media/AErreDesign-video_web.mp4" type="video/mp4" >
+                        <source src="media/AErreDesign-video_web.webm" type="video/webm" >
+                        Aerre Design, te ayudamos a comunicar mejor quién eres, qué haces y cómo
+                    </video>
+                    <video autoplay muted loop width="475" height="770" id="movil">
+                        <source src="media/AErreDesign-video_movil.mp4" type="video/mp4" >
+                        <source src="media/AErreDesign-video_movil.webm" type="video/webm" >
+                        Aerre Design, te ayudamos a comunicar mejor quién eres, qué haces y cómo
+                    </video>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2 contactos">
+                    <div>
+                        <a href="https://www.instagram.com/a_erre_shop/" title="Visitar el perfil de Instagram de A Erre Design"><img
+                                src="img/instagram.png" alt="Icono de Instagram"></a>
+                        <a href="https://www.linkedin.com/company/aerredesign-bilbao/" title="Visitar el perfil de LinkedIn de A Erre Design"><img
+                                src="img/linkedin.png" alt="Icono de LinkedIn"></a>
+                    </div>
+                    <div>
+                        <p class="enlace"><a href="tel:944422735">944422735</a> | <a
+                                href="mailto:aerre@aerredesign.com">aerre@aerredesign.com</a></p>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+CSS
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/HelveticaNeueLTStd-Lt.eot) format('eot'),
+         url(../fonts/HelveticaNeueLTStd-Lt.ttf) format('ttf'),
+         url(../fonts/HelveticaNeueLTStd-Lt.otf) format('otf'),
+         url(../fonts/HelveticaNeueLTStd-Lt.woff) format('woff'),
+         url(../fonts/HelveticaNeueLTStd-Lt.woff2) format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --dark: rgba(0, 0, 0, 1);
+}
+
+html,
+body {
+    font-family: 'Helvetica';
+    font-size: 28px;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    text-align: center;
+    margin: auto;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+h1 {
+    font-size: 4rem;
+    color: #ff0000;
+    font-weight: 200;
+    text-decoration: underline;
+}
+.row:nth-child(1) {
+    margin-bottom: 25px;
+}
+
+.row:last-child {
+    margin-top: 30px;
+}
+
+section {
+    max-width: 1490px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.col-4 {
+    width: 17%;
+}
+
+.col-2 {
+    width: 66%;
+    flex-direction: row;
+    display: flex;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: end;
+    line-height: 0px;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--dark);
+    width: 100%;
+    border: 0px;
+}
+
+.completo {
+    width: 100%;
+}
+
+.enlace {
+    font-size: 0.75rem;
+}
+
+.enlace a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+#movil {
+    width: 100% !important;
+    max-width: 475px;
+    height: auto;
+}
+
+@media screen and (orientation: landscape) {
+    #desktop {
+        display: block;
+        visibility: visible;
+        width: 100% !important;
+        height: auto;
+    }
+
+    #movil {
+        display: none;
+        visibility: hidden;
+    }
+
+    .row {
+        max-width: 1488px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    h1 {
+        font-size: 2rem;
+    }
+    #desktop {
+        display: none;
+        visibility: hidden;
+    }
+
+    #movil {
+        display: block;
+        visibility: visible;
+        width: 100% !important;
+        max-width: 475px;
+        height: auto;
+    }
+
+    .row {
+        max-width:100%;
+    }
+
+    .contactos {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-2.contactos div:nth-child(1) {
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .enlace a {
+        color: var(--dark);
+        font-size: 0.55rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    html,
+    body {
+        height: 90vh;
+    }
+
+    #movil {
+        width: 95% !important;
+        max-width: 475px;
+        height: auto;
+    }
+
+    .col-2.contactos div:nth-child(1) {
+        margin-top: 0%;
+    }
+
+    p {
+        font-size: 0.55rem;
+        line-height: 0.55rem;
+    }
+
+    .row:nth-child(1) {
+        margin-bottom: 5px;
+    }
+
+    .row:last-child {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    p {
+        font-size: 0.75rem;
+    }
+}
