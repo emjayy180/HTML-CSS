@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video fondo</title>
+    <link href="css/videofondo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <video autoplay muted loop id="mivideo">
+        <source src="bg-video/media/onda.mp4" type="video/mp4">
+    </video>
+    <div class="caja">
+        <h1>Ejemplo de vídeo de fondo</h1>
+        <p>Este vídeo de fondo no ocupa el 100% de pantalla, tanto a lo ancho como a lo largo, y nos permite escribir
+            por encima... </p>
+    </div>
+</body>
+
+</html>
+
+CSS
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+
+}
+
+#mivideo {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+
+.caja {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+}
