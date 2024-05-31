@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios transformaciones - Menú 2</title>
+  <link href="./css/menu_02.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="navegador">
+    <ul>
+      <li><a class="link" href="#">Inicio</a></li>
+      <li><a class="link" href="#">Sobre</a></li>
+      <li><a class="link" href="#">Contacto</a></li>
+      <li><a class="link" href="#">Blog</a></li>
+    </ul>
+  </nav>
+</body>
+
+</html>
+
+CSS
+
+body {
+  margin: 0px;
+}
+
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#navegador {
+  background: #EEA200;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.link {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  transition: all 300ms ease-in-out
+}
+
+.link:hover {
+  background: #ffffff;
+  color: #EEA200;
+  padding: 24px 10px;
+
+}
